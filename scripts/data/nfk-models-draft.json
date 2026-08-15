@@ -78,7 +78,6 @@
       "../images/alexandra/Alexandra3.jpeg",
       "../images/alexandra/Alexandra4.jpeg",
       "../images/alexandra/Alexandra5.jpeg",
-      "../images/alexandra/Alexandra6.jpeg",
       "../images/alexandra/Alexandra7.jpeg",
       "../images/alexandra/Alexandra8.jpeg",
       "../images/alexandra/Alexandra9.jpeg",
@@ -210,7 +209,7 @@
     "legacyFile": "newFaces/AlinaB.html"
   },
   {
-    "name": "AmaGanah",
+    "name": "Ama Ganah",
     "slug": "amaganah",
     "category": "new-faces",
     "measurements": {
@@ -230,7 +229,7 @@
     "legacyFile": "newFaces/AmaGanah.html"
   },
   {
-    "name": "BarcanAmelia",
+    "name": "Barcan Amelia",
     "slug": "barcanamelia",
     "category": "new-faces",
     "measurements": {
@@ -432,7 +431,7 @@
     "legacyFile": "newFaces/AndreeaB.html"
   },
   {
-    "name": "AndreeaCiobanu",
+    "name": "Andreea Ciobanu",
     "slug": "andreeaciobanu",
     "category": "new-faces",
     "measurements": {
@@ -810,7 +809,7 @@
     "legacyFile": "newFaces/Catinca.html"
   },
   {
-    "name": "CeliaGarcía",
+    "name": "Celia García",
     "slug": "celiagarcia",
     "category": "new-faces",
     "measurements": {
@@ -1468,7 +1467,7 @@
     "legacyFile": "newFaces/Kamila.html"
   },
   {
-    "name": "Kamila",
+    "name": "Kamila J",
     "slug": "kamilaj",
     "category": "new-faces",
     "measurements": {},
@@ -1516,7 +1515,7 @@
     "legacyFile": "newFaces/Karina.html"
   },
   {
-    "name": "Karina",
+    "name": "Karina S",
     "slug": "karinas",
     "category": "new-faces",
     "measurements": {
@@ -1657,7 +1656,7 @@
     "legacyFile": "newFaces/Laura.html"
   },
   {
-    "name": "Laura",
+    "name": "Laura S",
     "slug": "lauras",
     "category": "new-faces",
     "measurements": {},
