@@ -1,5 +1,6 @@
 "use client";
 
+import * as Select from "@radix-ui/react-select";
 import { startTransition, useActionState, useEffect, useRef } from "react";
 
 import { submitApplication, type JoinFormState } from "./actions";
@@ -191,19 +192,62 @@ export default function JoinForm() {
           <div className={styles.field}>
             <label htmlFor="gender">Gender *</label>
 
-            <select id="gender" name="gender" defaultValue="" required>
-              <option value="" disabled>
-                Select gender
-              </option>
+            <Select.Root name="gender" required>
+              <Select.Trigger
+                id="gender"
+                className={styles.selectTrigger}
+                aria-label="Gender"
+              >
+                <Select.Value placeholder="Select gender" />
 
-              <option value="female">Female</option>
+                <Select.Icon className={styles.selectIcon}>↓</Select.Icon>
+              </Select.Trigger>
 
-              <option value="male">Male</option>
+              <Select.Portal>
+                <Select.Content
+                  className={styles.selectContent}
+                  position="popper"
+                  sideOffset={6}
+                >
+                  <Select.Viewport className={styles.selectViewport}>
+                    <Select.Item value="female" className={styles.selectItem}>
+                      <Select.ItemText>Female</Select.ItemText>
 
-              <option value="other">Other</option>
+                      <Select.ItemIndicator className={styles.selectIndicator}>
+                        ✓
+                      </Select.ItemIndicator>
+                    </Select.Item>
 
-              <option value="prefer-not-to-say">Prefer not to say</option>
-            </select>
+                    <Select.Item value="male" className={styles.selectItem}>
+                      <Select.ItemText>Male</Select.ItemText>
+
+                      <Select.ItemIndicator className={styles.selectIndicator}>
+                        ✓
+                      </Select.ItemIndicator>
+                    </Select.Item>
+
+                    <Select.Item value="other" className={styles.selectItem}>
+                      <Select.ItemText>Other</Select.ItemText>
+
+                      <Select.ItemIndicator className={styles.selectIndicator}>
+                        ✓
+                      </Select.ItemIndicator>
+                    </Select.Item>
+
+                    <Select.Item
+                      value="prefer-not-to-say"
+                      className={styles.selectItem}
+                    >
+                      <Select.ItemText>Prefer not to say</Select.ItemText>
+
+                      <Select.ItemIndicator className={styles.selectIndicator}>
+                        ✓
+                      </Select.ItemIndicator>
+                    </Select.Item>
+                  </Select.Viewport>
+                </Select.Content>
+              </Select.Portal>
+            </Select.Root>
           </div>
 
           <div className={styles.field}>
