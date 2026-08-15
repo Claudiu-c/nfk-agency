@@ -1,0 +1,615 @@
+@use "../../styles/mixins" as mixins;
+
+.page {
+  overflow-x: clip;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 88svh;
+  padding-block: 140px 64px;
+
+  background: #111111;
+  color: #ffffff;
+}
+
+.heroInner {
+  @include mixins.container;
+
+  min-height: calc(88svh - 204px);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.heroTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  span:last-child {
+    opacity: 0.45;
+  }
+}
+
+.heroContent {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns:
+    minmax(0, 3fr)
+    minmax(250px, 1fr);
+
+  align-items: end;
+  gap: 80px;
+
+  padding-top: 56px;
+}
+
+.heroTitle {
+  margin: 0;
+
+  font-family: var(--font-display), serif;
+  font-size: clamp(5rem, 9vw, 10rem);
+  font-weight: 400;
+  line-height: 0.76;
+  letter-spacing: -0.055em;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+  }
+}
+
+.heroSide {
+  max-width: 320px;
+
+  padding-bottom: 40px;
+}
+
+.heroLabel,
+.heroRegion {
+  display: block;
+
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.heroLabel {
+  margin-bottom: 32px;
+
+  opacity: 0.45;
+}
+
+.heroRegion {
+  margin-top: 40px;
+}
+
+.heroSide p {
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: 0.75rem;
+  line-height: 1.7;
+
+  opacity: 0.7;
+}
+
+/* APPLICATION */
+
+.application {
+  padding-block: 140px;
+
+  background: #f4f2ed;
+  color: #111111;
+}
+
+.applicationInner {
+  @include mixins.container;
+}
+
+.applicationHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 64px;
+
+  margin-bottom: 100px;
+
+  .index {
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 320px;
+    justify-self: end;
+
+    margin: 0;
+
+    font-size: 0.75rem;
+    line-height: 1.7;
+
+    opacity: 0.6;
+  }
+}
+
+.form {
+  border-top: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.fieldset {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 64px;
+
+  margin: 0;
+  padding: 64px 0;
+
+  border: 0;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.legend {
+  float: left;
+
+  width: 260px;
+
+  padding: 0;
+
+  font-family: var(--font-display), serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+
+  gap: 48px 32px;
+
+  .field {
+    grid-column: span 3;
+  }
+
+  .field:nth-last-child(-n + 3) {
+    grid-column: span 2;
+  }
+}
+.field {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 14px;
+
+  label {
+    font-size: 0.6rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+
+    padding: 0 0 14px;
+
+    border: 0;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.35);
+    border-radius: 0;
+    outline: 0;
+
+    background: transparent;
+    color: #111111;
+
+    font: inherit;
+    font-size: 0.9rem;
+
+    transition: border-color 200ms ease;
+
+    &:focus {
+      border-color: #111111;
+    }
+
+    &::placeholder {
+      color: currentColor;
+      opacity: 0.35;
+    }
+  }
+
+  select {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    cursor: pointer;
+  }
+
+  textarea {
+    min-height: 130px;
+
+    resize: vertical;
+  }
+}
+
+.fullField {
+  grid-column: 2;
+}
+
+.formBottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 48px;
+
+  padding-block: 56px 20px;
+}
+
+.note {
+  margin: 0;
+
+  font-size: 0.65rem;
+
+  opacity: 0.5;
+}
+
+.submit {
+  @include mixins.editorial-link;
+
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+  color: #111111;
+
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.aboutFields {
+  grid-column: 2;
+
+  display: grid;
+  gap: 48px;
+}
+
+.uploads {
+  display: grid;
+  gap: 0;
+}
+
+.uploadField {
+  display: grid;
+  grid-template-columns:
+    minmax(180px, 1fr)
+    minmax(280px, 1.7fr);
+
+  align-items: center;
+  gap: 48px;
+
+  padding-block: 36px;
+
+  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0;
+
+    font-size: 0.65rem;
+
+    opacity: 0.45;
+  }
+
+  input[type="file"] {
+    width: 100%;
+    min-width: 0;
+
+    font-size: 0.75rem;
+  }
+
+  input[type="file"]::file-selector-button {
+    margin-right: 20px;
+    padding: 14px 20px;
+
+    border: 1px solid rgba(17, 17, 17, 0.4);
+
+    background: transparent;
+    color: #111111;
+
+    font-family: inherit;
+    font-size: 0.6rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition:
+      background-color 200ms ease,
+      color 200ms ease,
+      border-color 200ms ease;
+  }
+
+  input[type="file"]::file-selector-button:hover {
+    background: #111111;
+    color: #ffffff;
+  }
+}
+
+.uploadInfo {
+  label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 260px;
+    margin: 0;
+
+    font-size: 0.7rem;
+    line-height: 1.5;
+
+    opacity: 0.5;
+  }
+}
+
+.fieldLabel {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.dobFields {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 0.8fr)
+    minmax(0, 0.8fr)
+    minmax(0, 1.4fr);
+
+  gap: 16px;
+
+  input {
+    width: 100%;
+    min-width: 0;
+
+    padding: 0 0 14px;
+
+    border: 0;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.35);
+    outline: 0;
+
+    background: transparent;
+    color: #111111;
+
+    font: inherit;
+    font-size: 0.9rem;
+
+    &:focus {
+      border-color: #111111;
+    }
+
+    &::placeholder {
+      color: currentColor;
+      opacity: 0.35;
+    }
+  }
+}
+
+.successMessage,
+.errorMessage {
+  max-width: 420px;
+
+  margin: 20px 0 0;
+  padding: 14px 18px;
+
+  font-size: 0.75rem;
+  line-height: 1.5;
+
+  p {
+    margin: 0;
+  }
+}
+
+.successMessage {
+  border-left: 2px solid #111111;
+
+  background: rgba(17, 17, 17, 0.06);
+}
+
+.errorMessage {
+  border-left: 2px solid #111111;
+
+  background: rgba(17, 17, 17, 0.06);
+
+  font-weight: 500;
+}
+
+.messageLabel {
+  display: block;
+
+  margin-bottom: 6px;
+
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.submit:disabled {
+  cursor: wait;
+  opacity: 0.45;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .uploadField input[type="file"]::file-selector-button:hover {
+    background: #111111;
+    color: #ffffff;
+    border-color: #111111;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fieldset {
+    grid-template-columns: 200px 1fr;
+    gap: 48px;
+  }
+
+  .legend {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+
+    padding-block: 110px 64px;
+  }
+
+  .heroInner {
+    min-height: auto;
+  }
+
+  .heroContent {
+    grid-template-columns: 1fr;
+
+    gap: 48px;
+
+    padding-top: 110px;
+  }
+
+  .heroTitle {
+    font-size: clamp(3.2rem, 14vw, 5rem);
+
+    line-height: 0.8;
+  }
+
+  .heroSide {
+    max-width: 320px;
+
+    padding-bottom: 0;
+  }
+
+  .application {
+    padding-block: 80px;
+  }
+
+  .applicationHeader {
+    grid-template-columns: 1fr;
+
+    gap: 32px;
+
+    margin-bottom: 64px;
+
+    p {
+      justify-self: start;
+    }
+  }
+
+  .fieldset {
+    grid-template-columns: 1fr;
+
+    gap: 48px;
+
+    padding-block: 48px;
+  }
+
+  .legend {
+    float: none;
+
+    width: auto;
+
+    font-size: 1.7rem;
+  }
+
+  .fields {
+    width: 100%;
+    min-width: 0;
+
+    grid-template-columns: 1fr;
+    gap: 36px;
+
+    .field,
+    .field:nth-last-child(-n + 3) {
+      width: 100%;
+      min-width: 0;
+
+      grid-column: auto;
+    }
+
+    select {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+  }
+
+  .fullField {
+    grid-column: auto;
+  }
+
+  .formBottom {
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 32px;
+    padding-top: 48px;
+  }
+
+  .aboutFields {
+    grid-column: auto;
+  }
+  .uploadField {
+    grid-template-columns: 1fr;
+
+    gap: 24px;
+
+    padding-block: 28px;
+  }
+
+  .uploadInfo {
+    p {
+      max-width: 280px;
+    }
+  }
+
+  .uploadField input[type="file"] {
+    font-size: 0.7rem;
+  }
+}

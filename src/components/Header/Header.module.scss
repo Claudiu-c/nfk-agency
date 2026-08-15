@@ -1,0 +1,320 @@
+@use "../../styles/mixins" as mixins;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  border-bottom: 1px solid transparent;
+
+  transition:
+    background-color 300ms ease,
+    color 300ms ease,
+    border-color 300ms ease,
+    backdrop-filter 300ms ease;
+}
+
+.homeTop {
+  background: transparent;
+  color: #ffffff;
+  border-bottom-color: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.onDark,
+.homeTop {
+  .logoImage {
+    filter: none;
+  }
+}
+
+.onLight {
+  .logoImage {
+    filter: brightness(0);
+  }
+}
+
+.onDark {
+  background: rgba(17, 17, 17, 0.94);
+  color: #ffffff;
+
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.onLight {
+  background: rgba(244, 242, 237, 0.94);
+  color: #111111;
+
+  border-bottom-color: rgba(17, 17, 17, 0.08);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.inner {
+  @include mixins.container;
+
+  height: 96px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  display: block;
+
+  width: 56px;
+  height: 56px;
+
+  object-fit: contain;
+
+  transition: filter 300ms ease;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  font-family: var(--font-sans), sans-serif;
+
+  a {
+    position: relative;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 1px;
+      background: currentColor;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 250ms ease;
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+}
+
+.logo,
+.navigation a,
+.menuButton {
+  color: inherit;
+}
+
+.active::after {
+  transform: scaleX(1) !important;
+}
+
+.menuButton {
+  display: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.mobileMenu {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+  background: #111111;
+  color: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition:
+    transform 500ms cubic-bezier(0.76, 0, 0.24, 1),
+    opacity 300ms ease,
+    visibility 500ms;
+
+  z-index: 200;
+}
+
+.mobileMenuOpen {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mobileMenuInner {
+  @include mixins.container;
+  height: 100%;
+  padding-block: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileMenuHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobileLogo {
+  font-family: var(--font-display), serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.mobileLogoImage {
+  display: block;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.closeButton {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.mobileNavigation {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  a {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    align-items: baseline;
+
+    padding-block: 8px;
+
+    font-family: var(--font-display), serif;
+    font-size: clamp(3rem, 13vw, 6rem);
+    font-weight: 400;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+
+    span {
+      font-family: var(--font-sans), sans-serif;
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+    }
+  }
+}
+
+.mobileFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    width: 100%;
+    max-width: none;
+
+    height: 72px;
+
+    margin-inline: 0;
+    padding-inline: 20px;
+
+    box-sizing: border-box;
+  }
+
+  .logo {
+    flex-shrink: 0;
+  }
+
+  .logoImage {
+    width: 56px;
+    height: 56px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+
+    flex-shrink: 0;
+    margin-left: auto;
+
+    white-space: nowrap;
+  }
+
+  .mobileMenu {
+    width: 100vw;
+    max-width: 100vw;
+
+    overflow-x: hidden;
+  }
+
+  .mobileMenuInner {
+    width: 100%;
+    max-width: none;
+
+    margin-inline: 0;
+    padding: 20px;
+
+    box-sizing: border-box;
+  }
+
+  .mobileMenuHeader {
+    width: 100%;
+
+    flex-shrink: 0;
+  }
+
+  .mobileLogo {
+    flex-shrink: 0;
+  }
+
+  .mobileLogoImage {
+    width: 56px;
+    height: 56px;
+  }
+
+  .closeButton {
+    flex-shrink: 0;
+    margin-left: auto;
+
+    white-space: nowrap;
+  }
+}

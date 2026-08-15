@@ -1,0 +1,350 @@
+@use "../../styles/mixins" as mixins;
+
+.page {
+  overflow-x: clip;
+}
+
+.hero {
+  min-height: 88svh;
+  padding-block: 140px 64px;
+  background: #111111;
+  color: #ffffff;
+}
+
+.heroInner {
+  @include mixins.container;
+  min-height: calc(88svh - 204px);
+  display: flex;
+  flex-direction: column;
+}
+
+.heroTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  span:last-child {
+    opacity: 0.45;
+  }
+}
+
+.heroContent {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(250px, 1fr);
+  align-items: end;
+  gap: 80px;
+  padding-top: 56px;
+}
+
+.heroTitle {
+  margin: 0;
+  font-family: var(--font-display), serif;
+  font-size: clamp(5rem, 9vw, 10rem);
+  font-weight: 400;
+  line-height: 0.76;
+  letter-spacing: -0.055em;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+  }
+}
+
+.heroSide {
+  max-width: 320px;
+  padding-bottom: 40px;
+}
+
+.heroLabel {
+  display: block;
+  margin-bottom: 32px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.45;
+}
+
+.heroSide p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+
+.contact {
+  padding-block: 140px;
+  background: #f4f2ed;
+  color: #111111;
+}
+
+.contactInner {
+  @include mixins.container;
+}
+
+.contactHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 64px;
+  margin-bottom: 100px;
+}
+
+.index {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.contactHeader p {
+  max-width: 320px;
+  justify-self: end;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  opacity: 0.6;
+}
+
+.contactList {
+  border-top: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.contactItem {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr) 32px;
+  align-items: center;
+  gap: 40px;
+  min-height: 170px;
+  padding-block: 32px;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+  color: inherit;
+  text-decoration: none;
+}
+
+.contactItemLink {
+  cursor: pointer;
+
+  .value {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+
+    transition:
+      opacity 250ms ease,
+      transform 400ms cubic-bezier(0.2, 0.7, 0.2, 1);
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+
+      width: 100%;
+      height: 1px;
+
+      background: currentColor;
+
+      opacity: 0;
+
+      transform: scaleX(0);
+      transform-origin: left;
+
+      transition:
+        transform 450ms cubic-bezier(0.2, 0.7, 0.2, 1),
+        opacity 300ms ease;
+    }
+  }
+}
+
+.number {
+  align-self: start;
+  padding-top: 12px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  opacity: 0.4;
+}
+
+.itemContent {
+  display: grid;
+  grid-template-columns:
+    minmax(160px, 0.4fr)
+    minmax(0, 1fr);
+
+  align-items: center;
+  gap: 40px;
+
+  min-width: 0;
+}
+
+.label {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.value {
+  min-width: 0;
+
+  color: inherit;
+
+  font-family: var(--font-display), serif;
+  font-size: clamp(2.6rem, 4.3vw, 5.2rem);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+
+  text-decoration: none;
+
+  overflow-wrap: anywhere;
+}
+
+.arrow,
+.arrowMuted {
+  justify-self: end;
+  font-size: 1rem;
+}
+
+.arrow {
+  transition: transform 350ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.arrowMuted {
+  opacity: 0.3;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .contactItemLink:hover {
+    .value {
+      transform: translateX(8px);
+    }
+
+    .value::after {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+
+    .arrow {
+      transform: translate(5px, -5px);
+    }
+  }
+
+  .contactItemLink:focus-visible {
+    outline: none;
+
+    .value::after {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+
+    .arrow {
+      transform: translate(5px, -5px);
+    }
+  }
+}
+
+.join {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  margin-top: 100px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.joinLabel {
+  font-family: var(--font-display), serif;
+  font-size: 1.6rem;
+}
+
+.joinLink {
+  @include mixins.editorial-link;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding-block: 110px 64px;
+  }
+
+  .heroInner {
+    min-height: auto;
+  }
+
+  .heroContent {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding-top: 110px;
+  }
+
+  .heroTitle {
+    font-size: clamp(3.2rem, 14vw, 5rem);
+    line-height: 0.8;
+  }
+
+  .heroSide {
+    max-width: 320px;
+    padding-bottom: 0;
+  }
+
+  .contact {
+    padding-block: 80px;
+  }
+
+  .contactHeader {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+
+  .contactHeader p {
+    justify-self: start;
+  }
+
+  .contactItem {
+    grid-template-columns: 32px minmax(0, 1fr) 20px;
+    gap: 12px;
+    min-height: 0;
+    padding-block: 32px;
+  }
+
+  .number {
+    padding-top: 2px;
+  }
+
+  .itemContent {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 18px;
+  }
+
+  .value {
+    font-size: clamp(1.8rem, 7vw, 2.35rem);
+    line-height: 0.95;
+
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .contactItemLink .value {
+    white-space: nowrap;
+  }
+
+  .join {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 72px;
+  }
+}

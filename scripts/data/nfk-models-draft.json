@@ -1,0 +1,3062 @@
+[
+  {
+    "name": "Ada",
+    "slug": "ada",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Ada/Ada1.jpg",
+      "../images/Ada/Ada2.jpg",
+      "../images/Ada/Ada3.jpg",
+      "../images/Ada/Ada4.jpg",
+      "../images/Ada/Ada5.jpg",
+      "../images/Ada/Ada6.jpg",
+      "../images/Ada/Ada7.jpg",
+      "../images/Ada/Ada8.jpg"
+    ],
+    "legacyFile": "newFaces/Ada.html"
+  },
+  {
+    "name": "Adam",
+    "slug": "adam",
+    "category": "new-faces",
+    "measurements": {
+      "height": "186 cm",
+      "waist": "67 cm",
+      "hips": "83 cm"
+    },
+    "images": [
+      "../images/Adam/Adam1.jpeg",
+      "../images/Adam/Adam2.jpeg",
+      "../images/Adam/Adam3.jpeg",
+      "../images/Adam/Adam4.jpeg",
+      "../images/Adam/Adam5.jpeg",
+      "../images/Adam/Adam6.jpeg"
+    ],
+    "legacyFile": "newFaces/Adam.html"
+  },
+  {
+    "name": "Aldrina",
+    "slug": "aldrina",
+    "category": "new-faces",
+    "measurements": {
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/aldriana/Aldriana1.JPG",
+      "../images/aldriana/Aldriana2.JPG",
+      "../images/aldriana/Aldriana3.JPG",
+      "../images/aldriana/Aldriana4.JPG",
+      "../images/aldriana/Aldriana5.JPG",
+      "../images/aldriana/Aldriana6.jpg",
+      "../images/aldriana/Aldriana7.JPG",
+      "../images/aldriana/Aldriana8.JPG",
+      "../images/aldriana/Aldriana10.JPG",
+      "../images/aldriana/Aldriana11.JPG",
+      "../images/aldriana/Aldriana12.JPG",
+      "../images/aldriana/Aldriana13.JPG",
+      "../images/aldriana/Aldriana14.JPG",
+      "../images/aldriana/Aldriana16.JPG",
+      "../images/aldriana/Aldriana17.jpg",
+      "../images/aldriana/Aldriana18.JPG",
+      "../images/aldriana/Aldriana19.JPG",
+      "../images/aldriana/Aldriana23.JPG",
+      "../images/aldriana/Aldriana24.JPG"
+    ],
+    "legacyFile": "newFaces/Aldrina.html"
+  },
+  {
+    "name": "Alexandra",
+    "slug": "alexandra",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/alexandra/Alexandra1.jpeg",
+      "../images/alexandra/Alexandra2.jpeg",
+      "../images/alexandra/Alexandra3.jpeg",
+      "../images/alexandra/Alexandra4.jpeg",
+      "../images/alexandra/Alexandra5.jpeg",
+      "../images/alexandra/Alexandra6.jpeg",
+      "../images/alexandra/Alexandra7.jpeg",
+      "../images/alexandra/Alexandra8.jpeg",
+      "../images/alexandra/Alexandra9.jpeg",
+      "../images/alexandra/Alexandra10.jpeg",
+      "../images/alexandra/Alexandra11.jpeg",
+      "../images/alexandra/Alexandra12.png",
+      "../images/alexandra/Alexandra13.jpeg",
+      "../images/alexandra/Alexandra14.jpeg",
+      "../images/alexandra/Alexandra15.jpeg"
+    ],
+    "legacyFile": "newFaces/Alexandra.html"
+  },
+  {
+    "name": "Alexandra D",
+    "slug": "alexandra-d",
+    "category": "new-faces",
+    "measurements": {
+      "bust": "87 cm",
+      "waist": "60 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/alexandrad/alexandrad1.jpeg",
+      "../images/alexandrad/alexandrad2.jpeg",
+      "../images/alexandrad/alexandrad3.jpeg",
+      "../images/alexandrad/alexandrad4.jpeg",
+      "../images/alexandrad/alexandrad5.jpeg",
+      "../images/alexandrad/alexandrad6.jpeg",
+      "../images/alexandrad/alexandrad7.jpeg",
+      "../images/alexandrad/alexandrad8.jpeg",
+      "../images/alexandrad/alexandrad9.jpeg",
+      "../images/alexandrad/alexandrad10.jpeg",
+      "../images/alexandrad/alexandrad11.jpeg"
+    ],
+    "legacyFile": "newFaces/AlexandraD.html"
+  },
+  {
+    "name": "Alexis",
+    "slug": "alexis",
+    "category": "new-faces",
+    "measurements": {
+      "height": "176 cm",
+      "bust": "75 cm",
+      "waist": "63 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/Alexis/Alexis1.JPG",
+      "../images/Alexis/Alexis1.JPG",
+      "../images/Alexis/Alexis2.jpeg",
+      "../images/Alexis/Alexis3.JPG",
+      "../images/Alexis/Alexis4.JPG",
+      "../images/Alexis/Alexis5.jpeg",
+      "../images/Alexis/Alexis6.JPG"
+    ],
+    "legacyFile": "newFaces/Alexis.html"
+  },
+  {
+    "name": "Alice",
+    "slug": "alice",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "78 cm",
+      "waist": "58 cm",
+      "hips": "88 cm"
+    },
+    "images": [
+      "../images/Alice/Alice1.JPG",
+      "../images/Alice/Alice2.JPG",
+      "../images/Alice/Alice3.JPG",
+      "../images/Alice/Alice4.JPG",
+      "../images/Alice/Alice5.JPG",
+      "../images/Alice/Alice6.JPG",
+      "../images/Alice/Alice7.JPG",
+      "../images/Alice/Alice8.JPG",
+      "../images/Alice/Alice9.JPG",
+      "../images/Alice/Alice10.JPG",
+      "../images/Alice/Alice11.JPG",
+      "../images/Alice/Alice12.JPG",
+      "../images/Alice/Alice13.JPG",
+      "../images/Alice/Alice14.JPG",
+      "../images/Alice/Alice15.JPG"
+    ],
+    "legacyFile": "newFaces/Alice.html"
+  },
+  {
+    "name": "Alina",
+    "slug": "alina",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "84 cm",
+      "waist": "62 cm",
+      "hips": "92 cm"
+    },
+    "images": [
+      "../images/Alina/Alina1.jpeg",
+      "../images/Alina/Alina2.jpeg",
+      "../images/Alina/Alina3.jpeg",
+      "../images/Alina/Alina4.jpeg",
+      "../images/Alina/Alina5.jpeg",
+      "../images/Alina/Alina6.jpeg",
+      "../images/Alina/Alina7.jpeg",
+      "../images/Alina/Alina8.jpeg",
+      "../images/Alina/Alina9.jpeg",
+      "../images/Alina/Alina10.jpeg",
+      "../images/Alina/Alina11.jpeg"
+    ],
+    "legacyFile": "newFaces/Alina.html"
+  },
+  {
+    "name": "Alina B",
+    "slug": "alina-b",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/AlinaB/AlinaB1.jpg",
+      "../images/AlinaB/AlinaB2.jpg",
+      "../images/AlinaB/AlinaB3.jpg",
+      "../images/AlinaB/AlinaB4.JPG",
+      "../images/AlinaB/AlinaB5.jpg",
+      "../images/AlinaB/AlinaB6.jpg",
+      "../images/AlinaB/AlinaB7.jpg",
+      "../images/AlinaB/AlinaB8.jpg",
+      "../images/AlinaB/AlinaB9.jpg",
+      "../images/AlinaB/AlinaB10.jpg"
+    ],
+    "legacyFile": "newFaces/AlinaB.html"
+  },
+  {
+    "name": "AmaGanah",
+    "slug": "amaganah",
+    "category": "new-faces",
+    "measurements": {
+      "height": "186 cm",
+      "bust": "78 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/AmaGanah/Ama Ganah1.jpg",
+      "../images/AmaGanah/Ama Ganah2.jpg",
+      "../images/AmaGanah/Ama Ganah3.jpg",
+      "../images/AmaGanah/Ama Ganah4.jpg",
+      "../images/AmaGanah/Ama Ganah5.jpg",
+      "../images/AmaGanah/Ama Ganah6.jpg"
+    ],
+    "legacyFile": "newFaces/AmaGanah.html"
+  },
+  {
+    "name": "BarcanAmelia",
+    "slug": "barcanamelia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/BarcanAmelia/BarcanAmelia1.jpg",
+      "../images/BarcanAmelia/BarcanAmelia2.jpg",
+      "../images/BarcanAmelia/BarcanAmelia3.jpg",
+      "../images/BarcanAmelia/BarcanAmelia4.jpg",
+      "../images/BarcanAmelia/BarcanAmelia5.jpg",
+      "../images/BarcanAmelia/BarcanAmelia6.jpg",
+      "../images/BarcanAmelia/BarcanAmelia7.jpg",
+      "../images/BarcanAmelia/BarcanAmelia8.jpg",
+      "../images/BarcanAmelia/BarcanAmelia20.jpg",
+      "../images/BarcanAmelia/BarcanAmelia25.jpg",
+      "../images/BarcanAmelia/BarcanAmelia11.jpg",
+      "../images/BarcanAmelia/BarcanAmelia12.jpg",
+      "../images/BarcanAmelia/BarcanAmelia13.jpg",
+      "../images/BarcanAmelia/BarcanAmelia18.jpg",
+      "../images/BarcanAmelia/BarcanAmelia15.jpg"
+    ],
+    "legacyFile": "newFaces/Amelia.html"
+  },
+  {
+    "name": "AnaMaría",
+    "slug": "anamaria",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "89 cm",
+      "waist": "64 cm",
+      "hips": "99 cm"
+    },
+    "images": [
+      "../images/AnaMaríaVásquez/AnaMaria1.jpeg",
+      "../images/AnaMaríaVásquez/AnaMaria2.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria3.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria4.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria5.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria6.JPG",
+      "../images/AnaMaríaVásquez/AnaMaria7.JPG",
+      "../images/AnaMaríaVásquez/AnaMaria8.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria9.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria10.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria11.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria12.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria13.jpg",
+      "../images/AnaMaríaVásquez/AnaMaria14.PNG",
+      "../images/AnaMaríaVásquez/AnaMaria15.JPG"
+    ],
+    "legacyFile": "newFaces/AnaMaria.html"
+  },
+  {
+    "name": "Anantara",
+    "slug": "anantara",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Anantara/Anantara1.png",
+      "../images/Anantara/Anantara2.jpg",
+      "../images/Anantara/Anantara3.jpeg",
+      "../images/Anantara/Anantara4.JPG",
+      "../images/Anantara/Anantara5.JPG",
+      "../images/Anantara/Anantara7.jpg",
+      "../images/Anantara/Anantara8.JPG",
+      "../images/Anantara/Anantara9.JPG",
+      "../images/Anantara/Anantara10.jpeg",
+      "../images/Anantara/Anantara11.jpeg",
+      "../images/Anantara/Anantara12.jpg",
+      "../images/Anantara/Anantara13.jpeg",
+      "../images/Anantara/Anantara14.jpg"
+    ],
+    "legacyFile": "newFaces/Anantara.html"
+  },
+  {
+    "name": "Anastasia U",
+    "slug": "anastasia-u",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/AnastasiaU/Anastasiau1.jpeg",
+      "../images/AnastasiaU/Anastasiau4.jpeg",
+      "../images/AnastasiaU/Anastasiau5.jpeg",
+      "../images/AnastasiaU/Anastasiau6.jpeg",
+      "../images/AnastasiaU/Anastasiau7.jpeg",
+      "../images/AnastasiaU/Anastasiau8.jpeg",
+      "../images/AnastasiaU/Anastasiau9.jpeg",
+      "../images/AnastasiaU/Anastasiau10.jpeg",
+      "../images/AnastasiaU/Anastasiau11.jpeg",
+      "../images/AnastasiaU/Anastasiau10.jpeg",
+      "../images/AnastasiaU/Anastasiau11.jpeg",
+      "../images/AnastasiaU/Anastasiau12.jpeg",
+      "../images/AnastasiaU/Anastasiau13.jpeg",
+      "../images/AnastasiaU/Anastasiau14.jpeg",
+      "../images/AnastasiaU/Anastasiau15.jpeg",
+      "../images/AnastasiaU/Anastasiau16.jpeg"
+    ],
+    "legacyFile": "newFaces/AnastasiaU.html"
+  },
+  {
+    "name": "Anastasiia",
+    "slug": "anastasiia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "172 cm",
+      "bust": "81 cm",
+      "waist": "59 cm",
+      "hips": "87 cm"
+    },
+    "images": [
+      "../images/Anastasiia/Anastasiia1.jpeg",
+      "../images/Anastasiia/Anastasiia2.jpeg",
+      "../images/Anastasiia/Anastasiia3.jpeg",
+      "../images/Anastasiia/Anastasiia4.jpeg",
+      "../images/Anastasiia/Anastasiia5.jpeg",
+      "../images/Anastasiia/Anastasiia6.jpeg",
+      "../images/Anastasiia/Anastasiia7.jpeg",
+      "../images/Anastasiia/Anastasiia8.jpeg",
+      "../images/Anastasiia/Anastasiia9.jpeg",
+      "../images/Anastasiia/Anastasiia10.jpeg",
+      "../images/Anastasiia/Anastasiia11.jpeg",
+      "../images/Anastasiia/Anastasiia12.jpeg",
+      "../images/Anastasiia/Anastasiia13.jpeg",
+      "../images/Anastasiia/Anastasiia14.jpeg",
+      "../images/Anastasiia/Anastasiia15.jpeg",
+      "../images/Anastasiia/Anastasiia16.jpeg"
+    ],
+    "legacyFile": "newFaces/Anastasiia.html"
+  },
+  {
+    "name": "Andiya",
+    "slug": "andiya",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "86 cm",
+      "waist": "65 cm",
+      "hips": "96 cm"
+    },
+    "images": [
+      "../images/Andiya/andiya1.jpeg",
+      "../images/Andiya/andiya2.jpeg",
+      "../images/Andiya/andiya3.jpeg",
+      "../images/Andiya/andiya4.jpeg",
+      "../images/Andiya/andiya5.jpeg",
+      "../images/Andiya/andiya6.jpeg",
+      "../images/Andiya/andiya7.jpeg",
+      "../images/Andiya/andiya8.jpeg",
+      "../images/Andiya/andiya9.jpeg",
+      "../images/Andiya/andiya10.jpeg",
+      "../images/Andiya/andiya11.jpeg",
+      "../images/Andiya/andiya12.jpeg",
+      "../images/Andiya/andiya13.jpeg",
+      "../images/Andiya/andiya14.jpeg",
+      "../images/Andiya/andiya15.jpeg"
+    ],
+    "legacyFile": "newFaces/Andiya.html"
+  },
+  {
+    "name": "Andra Tache",
+    "slug": "andra-tache",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/andraTache/andrat1.jpeg",
+      "../images/andraTache/andrat2.jpeg",
+      "../images/andraTache/andrat3.jpeg",
+      "../images/andraTache/andrat4.jpeg",
+      "../images/andraTache/andrat5.jpeg",
+      "../images/andraTache/andrat6.jpeg",
+      "../images/andraTache/andrat7.jpeg",
+      "../images/andraTache/andrat8.jpeg",
+      "../images/andraTache/andrat9.jpeg"
+    ],
+    "legacyFile": "newFaces/Andra.html"
+  },
+  {
+    "name": "Andreea B",
+    "slug": "andreea-b",
+    "category": "new-faces",
+    "measurements": {
+      "height": "181 cm",
+      "bust": "91 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/AndreeaB/AndreeaB1.jpeg",
+      "../images/AndreeaB/AndreeaB3.jpeg",
+      "../images/AndreeaB/AndreeaB4.jpeg",
+      "../images/AndreeaB/AndreeaB5.jpeg",
+      "../images/AndreeaB/AndreeaB6.jpeg",
+      "../images/AndreeaB/AndreeaB7.jpeg"
+    ],
+    "legacyFile": "newFaces/AndreeaB.html"
+  },
+  {
+    "name": "AndreeaCiobanu",
+    "slug": "andreeaciobanu",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/AndreeaCiobanu/AndreeaCiobanu1.jpg",
+      "../images/AndreeaCiobanu/AndreeaCiobanu2.jpg",
+      "../images/AndreeaCiobanu/AndreeaCiobanu3.JPG",
+      "../images/AndreeaCiobanu/AndreeaCiobanu4.PNG",
+      "../images/AndreeaCiobanu/AndreeaCiobanu5.PNG",
+      "../images/AndreeaCiobanu/AndreeaCiobanu6.PNG",
+      "../images/AndreeaCiobanu/AndreeaCiobanu7.JPG",
+      "../images/AndreeaCiobanu/AndreeaCiobanu8.JPG",
+      "../images/AndreeaCiobanu/AndreeaCiobanu9.JPG"
+    ],
+    "legacyFile": "newFaces/AndreeaCiobanu.html"
+  },
+  {
+    "name": "Angelina",
+    "slug": "angelina",
+    "category": "new-faces",
+    "measurements": {
+      "height": "179 cm",
+      "bust": "90 cm",
+      "waist": "62 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Angelina/Angelina1.jpeg",
+      "../images/Angelina/Angelina2.jpg",
+      "../images/Angelina/Angelina3.jpg",
+      "../images/Angelina/Angelina4.jpg",
+      "../images/Angelina/Angelina5.jpg",
+      "../images/Angelina/Angelina6.JPG",
+      "../images/Angelina/Angelina7.jpeg",
+      "../images/Angelina/Angelina8.jpg",
+      "../images/Angelina/Angelina9.jpeg",
+      "../images/Angelina/Angelina10.jpeg",
+      "../images/Angelina/Angelina11.jpeg",
+      "../images/Angelina/Angelina12.jpg",
+      "../images/Angelina/Angelina13.jpeg",
+      "../images/Angelina/Angelina14.JPG",
+      "../images/Angelina/Angelina15.jpeg"
+    ],
+    "legacyFile": "newFaces/Angelina.html"
+  },
+  {
+    "name": "Anita",
+    "slug": "anita",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "90 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Anita/Anita.jpeg",
+      "../images/Anita/Anita2.jpeg",
+      "../images/Anita/Anita3.jpeg",
+      "../images/Anita/Anita4.jpeg",
+      "../images/Anita/Anita5.jpeg",
+      "../images/Anita/Anita6.jpeg"
+    ],
+    "legacyFile": "newFaces/Anita.html"
+  },
+  {
+    "name": "Anna",
+    "slug": "anna",
+    "category": "new-faces",
+    "measurements": {
+      "height": "171 cm",
+      "bust": "87 cm",
+      "waist": "63 cm",
+      "hips": "95 cm"
+    },
+    "images": [
+      "../images/Anna/Anna1.jpg",
+      "../images/Anna/Anna2.jpg",
+      "../images/Anna/Anna3.jpg",
+      "../images/Anna/Anna4.jpg",
+      "../images/Anna/Anna5.jpg",
+      "../images/Anna/Anna6.jpg",
+      "../images/Anna/Anna7.jpg",
+      "../images/Anna/Anna8.jpg",
+      "../images/Anna/Anna9.jpg",
+      "../images/Anna/Anna10.jpg"
+    ],
+    "legacyFile": "newFaces/Anna.html"
+  },
+  {
+    "name": "AnaMaria",
+    "slug": "annamaria",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/AnaMaria/AnaM1.PNG",
+      "../images/AnaMaria/AnaM1.PNG",
+      "../images/AnaMaria/AnaM2.jpg",
+      "../images/AnaMaria/AnaM3.jpeg",
+      "../images/AnaMaria/AnaM4.jpeg",
+      "../images/AnaMaria/AnaM5.JPG",
+      "../images/AnaMaria/AnaM6.jpg"
+    ],
+    "legacyFile": "newFaces/AnnaMaria.html"
+  },
+  {
+    "name": "Anna Zadokhina",
+    "slug": "anna-zadokhina",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/AnnaZadokhina/Anna Zadokhina1.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina2.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina3.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina4.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina5.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina6.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina7.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina8.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina9.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina10.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina11.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina13.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina14.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina15.jpeg",
+      "../images/AnnaZadokhina/Anna Zadokhina16.jpeg"
+    ],
+    "legacyFile": "newFaces/AnnaZadokhina.html"
+  },
+  {
+    "name": "Anne",
+    "slug": "anne",
+    "category": "new-faces",
+    "measurements": {
+      "height": "171 cm",
+      "bust": "87 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Anne/Anne1.jpg",
+      "../images/Anne/Anne2.jpg",
+      "../images/Anne/Anne3.jpg",
+      "../images/Anne/Anne4.jpg",
+      "../images/Anne/Anne5.jpg",
+      "../images/Anne/Anne6.jpg"
+    ],
+    "legacyFile": "newFaces/Anne.html"
+  },
+  {
+    "name": "Antonia",
+    "slug": "antonia",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/antonia/Antonia1.jpeg",
+      "../images/antonia/Antonia2.jpeg",
+      "../images/antonia/Antonia3.jpeg",
+      "../images/antonia/Antonia4.jpeg",
+      "../images/antonia/Antonia5.jpeg",
+      "../images/antonia/Antonia6.jpeg",
+      "../images/antonia/Antonia7.jpeg",
+      "../images/antonia/Antonia8.jpeg",
+      "../images/antonia/Antonia9.jpeg",
+      "../images/antonia/Antonia10.jpeg",
+      "../images/antonia/Antonia11.jpeg",
+      "../images/antonia/Antonia12.jpeg",
+      "../images/antonia/Antonia13.jpeg",
+      "../images/antonia/Antonia14.jpeg",
+      "../images/antonia/Antonia15.jpeg"
+    ],
+    "legacyFile": "newFaces/Antonia.html"
+  },
+  {
+    "name": "Bahar",
+    "slug": "bahar",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "91 cm",
+      "waist": "60 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Bahar/Bahar10.jpeg",
+      "../images/Bahar/Bahar2.jpg",
+      "../images/Bahar/Bahar3.jpg",
+      "../images/Bahar/Bahar4.jpg",
+      "../images/Bahar/Bahar5.jpg",
+      "../images/Bahar/Bahar6.jpg",
+      "../images/Bahar/Bahar7.jpg",
+      "../images/Bahar/Bahar8.jpeg",
+      "../images/Bahar/Bahar9.jpeg",
+      "../images/Bahar/Bahar10.jpeg",
+      "../images/Bahar/Bahar11.jpeg",
+      "../images/Bahar/Bahar12.jpeg",
+      "../images/Bahar/Bahar13.jpeg",
+      "../images/Bahar/Bahar14.jpeg",
+      "../images/Bahar/Bahar15.jpeg",
+      "../images/Bahar/Bahar16.jpeg",
+      "../images/Bahar/Bahar17.jpeg"
+    ],
+    "legacyFile": "newFaces/Bahar.html"
+  },
+  {
+    "name": "Barbora",
+    "slug": "barbora",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "85 cm",
+      "waist": "59 cm",
+      "hips": "88 cm"
+    },
+    "images": [
+      "../images/Barbora/1-barbora-l-main-book.jpg",
+      "../images/Barbora/2-barbora-l-main-book.jpg",
+      "../images/Barbora/4-barbora-l-main-book.jpg",
+      "../images/Barbora/5-barbora-l-main-book.jpg",
+      "../images/Barbora/6-barbora-l-main-book.jpg",
+      "../images/Barbora/7-barbora-l-main-book.jpg",
+      "../images/Barbora/8-barbora-l-main-book.jpg",
+      "../images/Barbora/12-barbora-l-main-book.jpg",
+      "../images/Barbora/13-barbora-l-main-book.jpg",
+      "../images/Barbora/14-barbora-l-main-book.jpg"
+    ],
+    "legacyFile": "newFaces/Barbora.html"
+  },
+  {
+    "name": "beatriz",
+    "slug": "beatriz",
+    "category": "new-faces",
+    "measurements": {
+      "bust": "86 cm",
+      "waist": "63 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/beatriz/beatriz1.jpeg",
+      "../images/beatriz/beatriz2.jpeg",
+      "../images/beatriz/beatriz3.jpeg",
+      "../images/beatriz/beatriz4.jpeg",
+      "../images/beatriz/beatriz5.jpeg",
+      "../images/beatriz/beatriz6.jpeg",
+      "../images/beatriz/beatriz7.jpeg",
+      "../images/beatriz/beatriz8.jpeg",
+      "../images/beatriz/beatriz9.jpeg",
+      "../images/beatriz/beatriz10.jpeg",
+      "../images/beatriz/beatriz11.jpeg",
+      "../images/beatriz/beatriz12.jpeg",
+      "../images/beatriz/beatriz15.jpeg"
+    ],
+    "legacyFile": "newFaces/Beatriz.html"
+  },
+  {
+    "name": "Belle",
+    "slug": "belle",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Belle/Belle30.png",
+      "../images/Belle/Belle2.jpeg",
+      "../images/Belle/Belle3.jpeg",
+      "../images/Belle/Belle4.tiff",
+      "../images/Belle/Belle5.tiff",
+      "../images/Belle/Belle6.jpeg",
+      "../images/Belle/Belle7.jpeg",
+      "../images/Belle/Belle8.png",
+      "../images/Belle/Belle10.png",
+      "../images/Belle/Belle11.png",
+      "../images/Belle/Belle12.png",
+      "../images/Belle/Belle13.png",
+      "../images/Belle/Belle14.png",
+      "../images/Belle/Belle15.png"
+    ],
+    "legacyFile": "newFaces/Belle.html"
+  },
+  {
+    "name": "Bianca",
+    "slug": "bianca",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Bianca/Bianca1.jpeg",
+      "../images/Bianca/Bianca2.jpeg",
+      "../images/Bianca/Bianca3.jpeg",
+      "../images/Bianca/Bianca4.png",
+      "../images/Bianca/Bianca5.png",
+      "../images/Bianca/Bianca6.jpeg",
+      "../images/Bianca/Bianca7.jpeg",
+      "../images/Bianca/Bianca8.jpeg",
+      "../images/Bianca/Bianca9.jpeg"
+    ],
+    "legacyFile": "newFaces/Bianca.html"
+  },
+  {
+    "name": "Boonde",
+    "slug": "boonde",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/Boonde/Boonde1.jpeg",
+      "../images/Boonde/Boonde2.jpeg",
+      "../images/Boonde/Boonde3.jpg",
+      "../images/Boonde/Boonde4.jpeg",
+      "../images/Boonde/Boonde6.jpeg",
+      "../images/Boonde/Boonde7.jpeg",
+      "../images/Boonde/Boonde8.jpeg",
+      "../images/Boonde/Boonde9.jpeg",
+      "../images/Boonde/Boonde10.jpeg",
+      "../images/Boonde/Boonde11.jpeg",
+      "../images/Boonde/Boonde12.jpeg",
+      "../images/Boonde/Boonde13.jpg",
+      "../images/Boonde/Boonde14.jpeg",
+      "../images/Boonde/Boonde15.jpeg"
+    ],
+    "legacyFile": "newFaces/Boonde.html"
+  },
+  {
+    "name": "Cata",
+    "slug": "cata",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "90 cm",
+      "waist": "63 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/cata/1.jpeg",
+      "../images/cata/2.jpeg",
+      "../images/cata/3.jpeg",
+      "../images/cata/4.jpeg",
+      "../images/cata/5.jpeg",
+      "../images/cata/6.jpeg",
+      "../images/cata/7.jpeg",
+      "../images/cata/8.jpeg",
+      "../images/cata/9.jpeg",
+      "../images/cata/10.jpeg",
+      "../images/cata/11.jpeg",
+      "../images/cata/12.jpeg",
+      "../images/cata/13.jpeg",
+      "../images/cata/14.jpeg"
+    ],
+    "legacyFile": "newFaces/Cata.html"
+  },
+  {
+    "name": "Catinca",
+    "slug": "catinca",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/catinca/catinca1.jpeg",
+      "../images/catinca/catinca2.jpeg",
+      "../images/catinca/catinca3.jpeg",
+      "../images/catinca/catinca4.jpeg",
+      "../images/catinca/catinca5.jpeg",
+      "../images/catinca/catinca6.jpeg",
+      "../images/catinca/catinca7.jpeg",
+      "../images/catinca/catinca8.jpeg",
+      "../images/catinca/catinca9.jpeg",
+      "../images/catinca/catinca10.jpeg",
+      "../images/catinca/catinca11.jpeg"
+    ],
+    "legacyFile": "newFaces/Catinca.html"
+  },
+  {
+    "name": "CeliaGarcía",
+    "slug": "celiagarcia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "85 cm",
+      "waist": "61 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/CeliaGarcía/CeliaGarcía1.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía2.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía3.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía4.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía5.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía6.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía7.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía8.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía9.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía10.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía11.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía12.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía13.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía14.jpeg",
+      "../images/CeliaGarcía/CeliaGarcía15.jpeg"
+    ],
+    "legacyFile": "newFaces/CeliaGarc#U00eda.html"
+  },
+  {
+    "name": "Ciara",
+    "slug": "ciara",
+    "category": "new-faces",
+    "measurements": {
+      "height": "166 cm",
+      "bust": "90 cm",
+      "waist": "64 cm",
+      "hips": "104 cm"
+    },
+    "images": [
+      "../images/Ciara/Ciara1.jpeg",
+      "../images/Ciara/Ciara1.jpeg",
+      "../images/Ciara/Ciara2.jpeg",
+      "../images/Ciara/Ciara3.jpeg",
+      "../images/Ciara/Ciara4.jpeg",
+      "../images/Ciara/Ciara5.jpeg"
+    ],
+    "legacyFile": "newFaces/Ciara.html"
+  },
+  {
+    "name": "Cloe",
+    "slug": "cloe",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Cloe/1.jpg",
+      "../images/Cloe/2.jpg",
+      "../images/Cloe/3.jpg",
+      "../images/Cloe/4.jpg",
+      "../images/Cloe/5.jpg",
+      "../images/Cloe/6.jpg",
+      "../images/Cloe/7.jpg",
+      "../images/Cloe/8.jpg",
+      "../images/Cloe/9.jpg",
+      "../images/Cloe/10.jpg",
+      "../images/Cloe/11.jpg",
+      "../images/Cloe/12.jpg",
+      "../images/Cloe/13.jpg",
+      "../images/Cloe/14.jpg",
+      "../images/Cloe/15.jpg"
+    ],
+    "legacyFile": "newFaces/Cloe.html"
+  },
+  {
+    "name": "Dalii",
+    "slug": "dalii",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Dalii/Dalii1.jpeg",
+      "../images/Dalii/Dalii2.jpg",
+      "../images/Dalii/Dalii3.png",
+      "../images/Dalii/Dalii4.png",
+      "../images/Dalii/Dalii5.png",
+      "../images/Dalii/Dalii6.png",
+      "../images/Dalii/Dalii7.png",
+      "../images/Dalii/Dalii8.png",
+      "../images/Dalii/Dalii9.png",
+      "../images/Dalii/Dalii10.png",
+      "../images/Dalii/Dalii11.png",
+      "../images/Dalii/Dalii12.png",
+      "../images/Dalii/Dalii13.jpg",
+      "../images/Dalii/Dalii14.jpeg",
+      "../images/Dalii/Dalii15.jpg"
+    ],
+    "legacyFile": "newFaces/Dalii.html"
+  },
+  {
+    "name": "Daria",
+    "slug": "daria",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "88 cm",
+      "waist": "64 cm",
+      "hips": "97 cm"
+    },
+    "images": [
+      "../images/Daria/Daria1.JPG",
+      "../images/Daria/Daria2.jpg",
+      "../images/Daria/Daria3.JPG",
+      "../images/Daria/Daria4.PNG",
+      "../images/Daria/Daria5.PNG",
+      "../images/Daria/Daria6.JPG",
+      "../images/Daria/Daria7.PNG",
+      "../images/Daria/Daria8.JPG",
+      "../images/Daria/Daria9.JPG"
+    ],
+    "legacyFile": "newFaces/Daria.html"
+  },
+  {
+    "name": "Debora",
+    "slug": "debora",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "90 cm",
+      "waist": "70 cm",
+      "hips": "100 cm"
+    },
+    "images": [
+      "../images/debora/debora1.jpg",
+      "../images/debora/debora2.jpg",
+      "../images/debora/debora3.jpg",
+      "../images/debora/debora4.jpg",
+      "../images/debora/debora5.jpg",
+      "../images/debora/debora6.jpg",
+      "../images/debora/debora7.jpg",
+      "../images/debora/debora8.jpg",
+      "../images/debora/debora9.png",
+      "../images/debora/debora10.jpg",
+      "../images/debora/debora11.jpg",
+      "../images/debora/debora12.jpg",
+      "../images/debora/debora13.jpg",
+      "../images/debora/debora14.jpg",
+      "../images/debora/debora15.jpg"
+    ],
+    "legacyFile": "newFaces/Debora.html"
+  },
+  {
+    "name": "Diana Mihaila",
+    "slug": "diana-mihaila",
+    "category": "new-faces",
+    "measurements": {
+      "height": "179 cm",
+      "bust": "90 cm",
+      "waist": "61 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/DianaMihaila/DianaMihaila1.jpg",
+      "../images/DianaMihaila/DianaMihaila2.jpg",
+      "../images/DianaMihaila/DianaMihaila3.jpg",
+      "../images/DianaMihaila/DianaMihaila4.jpg",
+      "../images/DianaMihaila/DianaMihaila5.jpg",
+      "../images/DianaMihaila/DianaMihaila6.jpg",
+      "../images/DianaMihaila/DianaMihaila7.jpg",
+      "../images/DianaMihaila/DianaMihaila8.jpg",
+      "../images/DianaMihaila/DianaMihaila9.jpg",
+      "../images/DianaMihaila/DianaMihaila10.jpg",
+      "../images/DianaMihaila/DianaMihaila11.jpg",
+      "../images/DianaMihaila/DianaMihaila12.jpg",
+      "../images/DianaMihaila/DianaMihaila13.jpg",
+      "../images/DianaMihaila/DianaMihaila14.jpg",
+      "../images/DianaMihaila/DianaMihaila15.jpg"
+    ],
+    "legacyFile": "newFaces/Diana.html"
+  },
+  {
+    "name": "Doha",
+    "slug": "doha",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Doha/Doha1.jpeg",
+      "../images/Doha/Doha2.png",
+      "../images/Doha/Doha3.jpeg",
+      "../images/Doha/Doha4.jpeg",
+      "../images/Doha/Doha5.jpeg",
+      "../images/Doha/Doha6.jpeg",
+      "../images/Doha/Doha7.jpeg",
+      "../images/Doha/Doha8.jpeg",
+      "../images/Doha/Doha9.jpeg",
+      "../images/Doha/Doha10.jpeg",
+      "../images/Doha/Doha11.jpeg",
+      "../images/Doha/Doha12.jpeg"
+    ],
+    "legacyFile": "newFaces/Doha.html"
+  },
+  {
+    "name": "Doina",
+    "slug": "doina",
+    "category": "new-faces",
+    "measurements": {
+      "height": "170 cm",
+      "bust": "84 cm",
+      "waist": "60 cm",
+      "hips": "87 cm"
+    },
+    "images": [
+      "../images/Doina/Doina1.jpg",
+      "../images/Doina/Doina2.jpg",
+      "../images/Doina/Doina3.jpg",
+      "../images/Doina/Doina4.jpg",
+      "../images/Doina/Doina5.jpg",
+      "../images/Doina/Doina6.jpg",
+      "../images/Doina/Doina7.jpg",
+      "../images/Doina/Doina8.jpg",
+      "../images/Doina/Doina9.jpg",
+      "../images/Doina/Doina10.jpg",
+      "../images/Doina/Doina11.jpg",
+      "../images/Doina/Doina12.jpg",
+      "../images/Doina/Doina13.jpg"
+    ],
+    "legacyFile": "newFaces/Doina.html"
+  },
+  {
+    "name": "dunia",
+    "slug": "dunia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "80 cm",
+      "waist": "62 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/dunia/dunia1.jpeg",
+      "../images/dunia/dunia2.jpeg",
+      "../images/dunia/dunia3.jpeg",
+      "../images/dunia/dunia4.jpeg",
+      "../images/dunia/dunia5.jpeg",
+      "../images/dunia/dunia6.jpeg",
+      "../images/dunia/dunia7.jpeg",
+      "../images/dunia/dunia8.jpeg",
+      "../images/dunia/dunia9.jpeg",
+      "../images/dunia/dunia10.jpeg",
+      "../images/dunia/dunia11.jpeg",
+      "../images/dunia/dunia12.jpeg",
+      "../images/dunia/dunia13.jpeg",
+      "../images/dunia/dunia14.jpeg",
+      "../images/dunia/dunia15.jpeg"
+    ],
+    "legacyFile": "newFaces/Dunia.html"
+  },
+  {
+    "name": "Edita",
+    "slug": "edita",
+    "category": "new-faces",
+    "measurements": {
+      "bust": "86 cm",
+      "waist": "65 cm",
+      "hips": "84 cm"
+    },
+    "images": [
+      "../images/Edita/1.jpg",
+      "../images/Edita/2.JPG",
+      "../images/Edita/3.jpg",
+      "../images/Edita/4.jpg",
+      "../images/Edita/5.jpg",
+      "../images/Edita/6.jpg",
+      "../images/Edita/7.jpg",
+      "../images/Edita/8.JPG",
+      "../images/Edita/9.JPG",
+      "../images/Edita/10.jpg",
+      "../images/Edita/11.jpg",
+      "../images/Edita/12.JPG",
+      "../images/Edita/13.jpg",
+      "../images/Edita/14.jpg",
+      "../images/Edita/15.JPG"
+    ],
+    "legacyFile": "newFaces/Edita.html"
+  },
+  {
+    "name": "Ekaterina",
+    "slug": "ekaterina",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Ekaterina/Ekaterina1.JPG",
+      "../images/Ekaterina/Ekaterina2.jpg",
+      "../images/Ekaterina/Ekaterina3.jpg",
+      "../images/Ekaterina/Ekaterina4.JPG",
+      "../images/Ekaterina/Ekaterina5.JPG",
+      "../images/Ekaterina/Ekaterina6.jpeg",
+      "../images/Ekaterina/Ekaterina7.jpeg",
+      "../images/Ekaterina/Ekaterina8.jpeg",
+      "../images/Ekaterina/Ekaterina9.jpeg",
+      "../images/Ekaterina/Ekaterina10.jpeg",
+      "../images/Ekaterina/Ekaterina11.jpeg",
+      "../images/Ekaterina/Ekaterina12.jpeg",
+      "../images/Ekaterina/Ekaterina13.jpeg",
+      "../images/Ekaterina/Ekaterina14.jpeg",
+      "../images/Ekaterina/Ekaterina15.jpeg"
+    ],
+    "legacyFile": "newFaces/Ekaterina.html"
+  },
+  {
+    "name": "Eli",
+    "slug": "eli",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Eli/Eli1.JPG",
+      "../images/Eli/Eli2.JPG",
+      "../images/Eli/Eli3.JPG",
+      "../images/Eli/Eli4.jpeg",
+      "../images/Eli/Eli5.jpeg",
+      "../images/Eli/Eli6.jpg",
+      "../images/Eli/Eli7.jpeg",
+      "../images/Eli/Eli8.jpeg",
+      "../images/Eli/Eli9.jpeg",
+      "../images/Eli/Eli10.jpeg",
+      "../images/Eli/Eli11.jpeg",
+      "../images/Eli/Eli12.jpeg",
+      "../images/Eli/Eli13.jpeg",
+      "../images/Eli/Eli14.jpg",
+      "../images/Eli/Eli15.jpeg"
+    ],
+    "legacyFile": "newFaces/Eli.html"
+  },
+  {
+    "name": "Emna",
+    "slug": "emna",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Emna/Emna1.jpg",
+      "../images/Emna/Emna2.jpg",
+      "../images/Emna/Emna3.jpg",
+      "../images/Emna/Emna4.jpg",
+      "../images/Emna/Emna5.jpg",
+      "../images/Emna/Emna6.jpg",
+      "../images/Emna/Emna7.jpg"
+    ],
+    "legacyFile": "newFaces/Emna.html"
+  },
+  {
+    "name": "For",
+    "slug": "for",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/For/For1.jpeg",
+      "../images/For/For2.jpeg",
+      "../images/For/For3.jpeg",
+      "../images/For/For4.jpeg",
+      "../images/For/For5.jpeg",
+      "../images/For/For6.jpeg",
+      "../images/For/For7.jpeg",
+      "../images/For/For8.jpeg",
+      "../images/For/For9.jpeg",
+      "../images/For/For10.jpeg",
+      "../images/For/For11.jpeg",
+      "../images/For/For12.jpeg",
+      "../images/For/For13.jpeg",
+      "../images/For/For14.jpeg",
+      "../images/For/For15.jpeg"
+    ],
+    "legacyFile": "newFaces/For.html"
+  },
+  {
+    "name": "Ginta",
+    "slug": "ginta",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Ginta/1.jpeg",
+      "../images/Ginta/2.jpeg",
+      "../images/Ginta/3.jpeg",
+      "../images/Ginta/4.jpeg",
+      "../images/Ginta/5.jpeg",
+      "../images/Ginta/6.jpeg",
+      "../images/Ginta/7.jpeg",
+      "../images/Ginta/8.jpeg",
+      "../images/Ginta/9.jpeg",
+      "../images/Ginta/10.jpeg",
+      "../images/Ginta/11.jpeg",
+      "../images/Ginta/12.jpeg",
+      "../images/Ginta/13.jpeg",
+      "../images/Ginta/14.jpeg",
+      "../images/Ginta/15.jpeg"
+    ],
+    "legacyFile": "newFaces/Ginta.html"
+  },
+  {
+    "name": "Giulia Degan",
+    "slug": "giulia-degan",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Giuliadegan/Giulia1.jpg",
+      "../images/Giuliadegan/Giulia2.jpg",
+      "../images/Giuliadegan/Giulia3.jpg",
+      "../images/Giuliadegan/Giulia4.jpg",
+      "../images/Giuliadegan/Giulia5.jpg",
+      "../images/Giuliadegan/Giulia6.jpg",
+      "../images/Giuliadegan/Giulia7.jpg",
+      "../images/Giuliadegan/Giulia8.jpg",
+      "../images/Giuliadegan/Giulia9.jpg",
+      "../images/Giuliadegan/Giulia10.jpg",
+      "../images/Giuliadegan/Giulia11.jpg"
+    ],
+    "legacyFile": "newFaces/Giulia.html"
+  },
+  {
+    "name": "Grame",
+    "slug": "grame",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/grame/Grame1.jpeg",
+      "../images/grame/Grame1.jpeg",
+      "../images/grame/Grame2.jpeg",
+      "../images/grame/Grame3.jpeg",
+      "../images/grame/Grame4.jpeg",
+      "../images/grame/Grame5.jpeg"
+    ],
+    "legacyFile": "newFaces/Grame.html"
+  },
+  {
+    "name": "Greta",
+    "slug": "greta",
+    "category": "new-faces",
+    "measurements": {
+      "height": "186 cm",
+      "bust": "78 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Greta/Greta.jpg",
+      "../images/Greta/Greta.jpg",
+      "../images/Greta/Greta1.jpg",
+      "../images/Greta/Greta2.jpg",
+      "../images/Greta/Greta3.jpg",
+      "../images/Greta/Greta4.jpg",
+      "../images/Greta/Greta5.jpg",
+      "../images/Greta/Greta6.jpg",
+      "../images/Greta/Greta7.jpg",
+      "../images/Greta/Greta8.jpg",
+      "../images/Greta/Greta9.jpg",
+      "../images/Greta/Greta10.jpg",
+      "../images/Greta/Greta11.jpg",
+      "../images/Greta/Greta12.jpg",
+      "../images/Greta/Greta13.jpg",
+      "../images/Greta/Greta14.jpg"
+    ],
+    "legacyFile": "newFaces/Greta.html"
+  },
+  {
+    "name": "Hilal",
+    "slug": "hilal",
+    "category": "new-faces",
+    "measurements": {
+      "height": "174 cm",
+      "bust": "75 cm",
+      "waist": "58 cm",
+      "hips": "84 cm"
+    },
+    "images": [
+      "../images/Hilal/Hilal1.jpeg",
+      "../images/Hilal/Hilal2.jpeg",
+      "../images/Hilal/Hilal3.jpeg",
+      "../images/Hilal/Hilal4.jpeg",
+      "../images/Hilal/Hilal5.jpeg",
+      "../images/Hilal/Hilal6.jpeg",
+      "../images/Hilal/Hilal7.jpeg",
+      "../images/Hilal/Hilal8.jpeg",
+      "../images/Hilal/Hilal9.jpeg",
+      "../images/Hilal/Hilal10.jpeg",
+      "../images/Hilal/Hilal11.jpeg",
+      "../images/Hilal/Hilal12.jpeg",
+      "../images/Hilal/Hilal13.jpeg",
+      "../images/Hilal/Hilal14.jpeg",
+      "../images/Hilal/Hilal15.jpeg"
+    ],
+    "legacyFile": "newFaces/Hilal.html"
+  },
+  {
+    "name": "Inga",
+    "slug": "inga",
+    "category": "new-faces",
+    "measurements": {
+      "height": "178 cm",
+      "bust": "90 cm",
+      "waist": "63 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Inga/Inga1.jpeg",
+      "../images/Inga/Inga2.jpeg",
+      "../images/Inga/Inga3.jpeg",
+      "../images/Inga/Inga4.jpeg",
+      "../images/Inga/Inga5.jpeg",
+      "../images/Inga/Inga6.jpeg",
+      "../images/Inga/Inga7.jpeg",
+      "../images/Inga/Inga8.jpeg",
+      "../images/Inga/Inga9.jpeg",
+      "../images/Inga/Inga10.jpeg",
+      "../images/Inga/Inga11.jpeg",
+      "../images/Inga/Inga12.jpeg",
+      "../images/Inga/Inga13.jpeg",
+      "../images/Inga/Inga14.jpeg",
+      "../images/Inga/Inga15.jpeg"
+    ],
+    "legacyFile": "newFaces/Inga.html"
+  },
+  {
+    "name": "Isabela",
+    "slug": "isabela",
+    "category": "new-faces",
+    "measurements": {
+      "bust": "86 cm",
+      "waist": "64 cm",
+      "hips": "95 cm"
+    },
+    "images": [
+      "../images/Isabela/Isabela1.jpeg",
+      "../images/Isabela/Isabela2.JPG",
+      "../images/Isabela/Isabela3.JPG",
+      "../images/Isabela/Isabela4.jpeg",
+      "../images/Isabela/Isabela5.jpeg",
+      "../images/Isabela/Isabela6.JPG",
+      "../images/Isabela/Isabela7.jpeg",
+      "../images/Isabela/Isabela8.jpeg",
+      "../images/Isabela/Isabela9.jpeg",
+      "../images/Isabela/Isabela10.jpeg",
+      "../images/Isabela/Isabela11.jpg"
+    ],
+    "legacyFile": "newFaces/Isabela.html"
+  },
+  {
+    "name": "Jabar",
+    "slug": "jabar",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/jabar/Jabar1.jpeg",
+      "../images/jabar/Jabar2.JPG",
+      "../images/jabar/Jabar3.jpg",
+      "../images/jabar/Jabar4.JPG",
+      "../images/jabar/Jabar5.JPG",
+      "../images/jabar/Jabar6.jpg",
+      "../images/jabar/Jabar7.jpeg",
+      "../images/jabar/Jabar8.JPEG",
+      "../images/jabar/Jabar9.jpeg",
+      "../images/jabar/Jabar10.jpeg"
+    ],
+    "legacyFile": "newFaces/Jabar.html"
+  },
+  {
+    "name": "Joi",
+    "slug": "joi",
+    "category": "new-faces",
+    "measurements": {
+      "height": "172 cm",
+      "bust": "91 cm",
+      "waist": "64 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Joi/Joi1.jpeg",
+      "../images/Joi/Joi2.jpeg",
+      "../images/Joi/Joi3.jpeg",
+      "../images/Joi/Joi4.jpeg",
+      "../images/Joi/Joi5.jpeg",
+      "../images/Joi/Joi6.jpeg",
+      "../images/Joi/Joi7.jpeg",
+      "../images/Joi/Joi8.jpeg"
+    ],
+    "legacyFile": "newFaces/Joi.html"
+  },
+  {
+    "name": "Julia",
+    "slug": "julia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "172 cm"
+    },
+    "images": [
+      "../images/julia/julia1.jpeg",
+      "../images/julia/julia2.jpeg",
+      "../images/julia/julia3.jpeg",
+      "../images/julia/julia4.jpeg",
+      "../images/julia/julia5.jpeg",
+      "../images/julia/julia6.jpeg",
+      "../images/julia/julia7.jpeg",
+      "../images/julia/julia8.jpeg",
+      "../images/julia/julia9.jpeg",
+      "../images/julia/julia10.jpeg",
+      "../images/julia/julia11.jpeg",
+      "../images/julia/julia12.jpeg"
+    ],
+    "legacyFile": "newFaces/Julia.html"
+  },
+  {
+    "name": "Julija",
+    "slug": "julija",
+    "category": "new-faces",
+    "measurements": {
+      "height": "178 cm",
+      "bust": "90 cm",
+      "waist": "63 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Julija/Julija1.jpg",
+      "../images/Julija/Julija2.jpg",
+      "../images/Julija/Julija3.jpg",
+      "../images/Julija/Julija4.jpg",
+      "../images/Julija/Julija5.jpg",
+      "../images/Julija/Julija6.jpg",
+      "../images/Julija/Julija7.jpg",
+      "../images/Julija/Julija8.jpg",
+      "../images/Julija/Julija9.jpg"
+    ],
+    "legacyFile": "newFaces/Julija.html"
+  },
+  {
+    "name": "Kamila",
+    "slug": "kamila",
+    "category": "new-faces",
+    "measurements": {
+      "height": "179 cm",
+      "bust": "89 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Kamila/1.jpeg",
+      "../images/Kamila/2.jpeg",
+      "../images/Kamila/3.JPG",
+      "../images/Kamila/4.jpeg",
+      "../images/Kamila/5.jpeg",
+      "../images/Kamila/6.jpeg",
+      "../images/Kamila/7.jpeg",
+      "../images/Kamila/8.JPG",
+      "../images/Kamila/9.jpeg",
+      "../images/Kamila/10.JPG",
+      "../images/Kamila/11.jpeg",
+      "../images/Kamila/12.jpeg",
+      "../images/Kamila/13.jpeg",
+      "../images/Kamila/14.JPG",
+      "../images/Kamila/15.JPG"
+    ],
+    "legacyFile": "newFaces/Kamila.html"
+  },
+  {
+    "name": "Kamila",
+    "slug": "kamilaj",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/KamilaJ/Kamila1.jpg",
+      "../images/KamilaJ/Kamila2.jpg",
+      "../images/KamilaJ/Kamila3.jpg",
+      "../images/KamilaJ/Kamila4.jpg",
+      "../images/KamilaJ/Kamila5.jpg",
+      "../images/KamilaJ/Kamila6.jpg",
+      "../images/KamilaJ/Kamila7.jpg",
+      "../images/KamilaJ/Kamila8.jpg",
+      "../images/KamilaJ/Kamila9.jpg",
+      "../images/KamilaJ/Kamila10.jpg"
+    ],
+    "legacyFile": "newFaces/KamilaJ.html"
+  },
+  {
+    "name": "Karina",
+    "slug": "karina",
+    "category": "new-faces",
+    "measurements": {
+      "height": "176 cm",
+      "bust": "84 cm",
+      "waist": "69 cm",
+      "hips": "95 cm"
+    },
+    "images": [
+      "../images/Karina/karina1.PNG",
+      "../images/Karina/karina2.JPG",
+      "../images/Karina/karina3.JPG",
+      "../images/Karina/karina4.PNG",
+      "../images/Karina/karina5.JPG",
+      "../images/Karina/karina6.JPG",
+      "../images/Karina/karina7.PNG",
+      "../images/Karina/karina8.JPG",
+      "../images/Karina/karina9.JPG",
+      "../images/Karina/karina10.PNG",
+      "../images/Karina/karina11.jpg",
+      "../images/Karina/karina12.jpg",
+      "../images/Karina/karina13.jpg",
+      "../images/Karina/karina14.jpg",
+      "../images/Karina/karina15.jpg"
+    ],
+    "legacyFile": "newFaces/Karina.html"
+  },
+  {
+    "name": "Karina",
+    "slug": "karinas",
+    "category": "new-faces",
+    "measurements": {
+      "height": "169 cm",
+      "bust": "88 cm",
+      "waist": "62 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/KarinaS/KarinaS1.JPG",
+      "../images/KarinaS/KarinaS2.JPG",
+      "../images/KarinaS/KarinaS3.JPG",
+      "../images/KarinaS/KarinaS4.JPG",
+      "../images/KarinaS/KarinaS5.JPG",
+      "../images/KarinaS/KarinaS6.JPG",
+      "../images/KarinaS/KarinaS7.JPG",
+      "../images/KarinaS/KarinaS8.JPG",
+      "../images/KarinaS/KarinaS9.JPG",
+      "../images/KarinaS/KarinaS10.JPG",
+      "../images/KarinaS/KarinaS11.JPG"
+    ],
+    "legacyFile": "newFaces/KarinaS.html"
+  },
+  {
+    "name": "Kseniya",
+    "slug": "kseniya",
+    "category": "new-faces",
+    "measurements": {
+      "height": "176 cm",
+      "bust": "86 cm",
+      "waist": "61 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Kseniya/1.jpeg",
+      "../images/Kseniya/2.jpeg",
+      "../images/Kseniya/3.jpeg",
+      "../images/Kseniya/4.jpeg",
+      "../images/Kseniya/5.jpeg",
+      "../images/Kseniya/6.png",
+      "../images/Kseniya/7.png",
+      "../images/Kseniya/8.jpeg",
+      "../images/Kseniya/9.jpeg",
+      "../images/Kseniya/10.png",
+      "../images/Kseniya/11.jpeg",
+      "../images/Kseniya/12.jpeg",
+      "../images/Kseniya/13.jpeg",
+      "../images/Kseniya/14.jpeg",
+      "../images/Kseniya/15.png"
+    ],
+    "legacyFile": "newFaces/Kseniya.html"
+  },
+  {
+    "name": "Lara",
+    "slug": "lara",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/Lara/Lara1.jpeg",
+      "../images/Lara/Lara2.jpeg",
+      "../images/Lara/Lara3.jpeg",
+      "../images/Lara/Lara4.jpeg",
+      "../images/Lara/Lara5.jpeg",
+      "../images/Lara/Lara6.jpeg",
+      "../images/Lara/Lara7.jpeg",
+      "../images/Lara/Lara8.jpeg",
+      "../images/Lara/Lara9.jpeg",
+      "../images/Lara/Lara10.jpeg",
+      "../images/Lara/Lara11.jpeg",
+      "../images/Lara/Lara12.jpeg",
+      "../images/Lara/Lara13.jpeg",
+      "../images/Lara/Lara14.jpeg",
+      "../images/Lara/Lara15.jpeg"
+    ],
+    "legacyFile": "newFaces/Lara.html"
+  },
+  {
+    "name": "Larisa",
+    "slug": "larisa",
+    "category": "new-faces",
+    "measurements": {
+      "height": "176 cm",
+      "bust": "84 cm",
+      "waist": "61 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Larisa/Larisa1.jpg",
+      "../images/Larisa/Larisa2.jpg",
+      "../images/Larisa/Larisa3.jpg",
+      "../images/Larisa/Larisa4.jpg",
+      "../images/Larisa/Larisa5.jpg",
+      "../images/Larisa/Larisa6.jpg",
+      "../images/Larisa/Larisa7.jpg",
+      "../images/Larisa/Larisa8.jpg",
+      "../images/Larisa/Larisa9.jpg",
+      "../images/Larisa/Larisa10.jpg",
+      "../images/Larisa/Larisa11.jpg",
+      "../images/Larisa/Larisa12.jpg",
+      "../images/Larisa/Larisa13.jpg",
+      "../images/Larisa/Larisa14.jpg",
+      "../images/Larisa/Larisa15.jpg",
+      "../images/Larisa/Larisa16.jpg"
+    ],
+    "legacyFile": "newFaces/Larisa.html"
+  },
+  {
+    "name": "Laura",
+    "slug": "laura",
+    "category": "new-faces",
+    "measurements": {
+      "height": "166 cm",
+      "waist": "58 cm",
+      "hips": "96 cm"
+    },
+    "images": [
+      "../images/Laura/Laura1.jpeg",
+      "../images/Laura/Laura2.jpeg",
+      "../images/Laura/Laura3.jpeg",
+      "../images/Laura/Laura4.jpeg",
+      "../images/Laura/Laura5.jpeg",
+      "../images/Laura/Laura6.jpeg",
+      "../images/Laura/Laura7.jpeg",
+      "../images/Laura/Laura8.jpeg",
+      "../images/Laura/Laura9.jpeg",
+      "../images/Laura/Laura10.jpeg",
+      "../images/Laura/Laura11.jpeg",
+      "../images/Laura/Laura12.jpeg",
+      "../images/Laura/Laura13.jpeg",
+      "../images/Laura/Laura14.jpeg",
+      "../images/Laura/Laura15.jpeg"
+    ],
+    "legacyFile": "newFaces/Laura.html"
+  },
+  {
+    "name": "Laura",
+    "slug": "lauras",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/LauraS/Laura1.jpeg",
+      "../images/LauraS/Laura2.jpeg",
+      "../images/LauraS/Laura3.jpeg",
+      "../images/LauraS/Laura4.jpeg",
+      "../images/LauraS/Laura5.jpeg",
+      "../images/LauraS/Laura6.jpeg",
+      "../images/LauraS/Laura7.jpeg",
+      "../images/LauraS/Laura8.jpeg",
+      "../images/LauraS/Laura9.jpeg",
+      "../images/LauraS/Laura10.jpeg",
+      "../images/LauraS/Laura11.jpeg",
+      "../images/LauraS/Laura12.jpeg",
+      "../images/LauraS/Laura13.jpeg"
+    ],
+    "legacyFile": "newFaces/LauraS.html"
+  },
+  {
+    "name": "Liga Liepina",
+    "slug": "liga-liepina",
+    "category": "new-faces",
+    "measurements": {
+      "height": "186 cm",
+      "bust": "78 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/LigaLiepina/Lipa1.jpg",
+      "../images/LigaLiepina/Lipa2.jpg",
+      "../images/LigaLiepina/Lipa3.jpg",
+      "../images/LigaLiepina/Lipa4.jpg",
+      "../images/LigaLiepina/Lipa5.jpg",
+      "../images/LigaLiepina/Lipa6.jpg",
+      "../images/LigaLiepina/Lipa7.jpg",
+      "../images/LigaLiepina/Lipa8.jpg",
+      "../images/LigaLiepina/Lipa9.jpg",
+      "../images/LigaLiepina/Lipa10.jpg",
+      "../images/LigaLiepina/Lipa11.jpg",
+      "../images/LigaLiepina/Lipa12.jpg",
+      "../images/LigaLiepina/Lipa13.jpg",
+      "../images/LigaLiepina/Lipa14.jpg",
+      "../images/LigaLiepina/Lipa15.jpg"
+    ],
+    "legacyFile": "newFaces/Liga.html"
+  },
+  {
+    "name": "Lily",
+    "slug": "lily",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Lily/Lily1.jpg",
+      "../images/Lily/Lily2.jpg",
+      "../images/Lily/Lily3.JPG",
+      "../images/Lily/Lily4.jpg",
+      "../images/Lily/Lily5.jpg",
+      "../images/Lily/Lily6.jpg",
+      "../images/Lily/Lily7.jpg",
+      "../images/Lily/Lily8.jpg",
+      "../images/Lily/Lily9.jpg",
+      "../images/Lily/Lily10.jpg",
+      "../images/Lily/Lily11.jpg"
+    ],
+    "legacyFile": "newFaces/Lily.html"
+  },
+  {
+    "name": "Lorena",
+    "slug": "lorena",
+    "category": "new-faces",
+    "measurements": {
+      "height": "181 cm",
+      "bust": "88 cm",
+      "waist": "66 cm",
+      "hips": "96 cm"
+    },
+    "images": [
+      "../images/Lorena/Lorena1.jpg",
+      "../images/Lorena/Lorena2.jpg",
+      "../images/Lorena/Lorena3.jpg",
+      "../images/Lorena/Lorena4.jpg",
+      "../images/Lorena/Lorena5.jpg",
+      "../images/Lorena/Lorena6.jpg",
+      "../images/Lorena/Lorena7.jpg",
+      "../images/Lorena/Lorena8.jpg",
+      "../images/Lorena/Lorena9.jpg",
+      "../images/Lorena/Lorena10.jpg",
+      "../images/Lorena/Lorena11.jpg",
+      "../images/Lorena/Lorena12.jpg",
+      "../images/Lorena/Lorena13.jpg",
+      "../images/Lorena/Lorena14.jpg",
+      "../images/Lorena/Lorena15.jpg",
+      "../images/Lorena/Lorena16.jpg"
+    ],
+    "legacyFile": "newFaces/Lorena.html"
+  },
+  {
+    "name": "Lucia",
+    "slug": "lucia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "5'9",
+      "bust": "36 (32B)",
+      "waist": "28.5",
+      "hips": "35.5"
+    },
+    "images": [
+      "../images/Lucia/Lucia1.jpeg",
+      "../images/Lucia/Lucia1.jpeg",
+      "../images/Lucia/Lucia2.jpeg",
+      "../images/Lucia/Lucia3.jpeg",
+      "../images/Lucia/Lucia4.jpeg",
+      "../images/Lucia/Lucia5.jpeg",
+      "../images/Lucia/Lucia6.jpeg",
+      "../images/Lucia/Lucia7.jpeg",
+      "../images/Lucia/Lucia8.jpeg"
+    ],
+    "legacyFile": "newFaces/Lucia.html"
+  },
+  {
+    "name": "Magdalena",
+    "slug": "magdalena",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "84 cm",
+      "waist": "62 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Magdalena/Magdalena1.jpeg",
+      "../images/Magdalena/Magdalena2.jpeg",
+      "../images/Magdalena/Magdalena3.jpeg",
+      "../images/Magdalena/Magdalena4.jpeg",
+      "../images/Magdalena/Magdalena5.jpeg",
+      "../images/Magdalena/Magdalena6.jpg",
+      "../images/Magdalena/Magdalena7.jpeg",
+      "../images/Magdalena/Magdalena8.jpeg",
+      "../images/Magdalena/Magdalena9.jpeg",
+      "../images/Magdalena/Magdalena10.jpeg",
+      "../images/Magdalena/Magdalena11.jpeg",
+      "../images/Magdalena/Magdalena12.jpeg",
+      "../images/Magdalena/Magdalena13.jpeg"
+    ],
+    "legacyFile": "newFaces/Magdalena.html"
+  },
+  {
+    "name": "Maria",
+    "slug": "maria",
+    "category": "new-faces",
+    "measurements": {
+      "height": "168 cm",
+      "bust": "72 cm",
+      "waist": "58 cm",
+      "hips": "88 cm"
+    },
+    "images": [
+      "../images/Maria/Maria1.jpeg",
+      "../images/Maria/Maria2.jpeg",
+      "../images/Maria/Maria3.jpeg",
+      "../images/Maria/Maria4.jpeg",
+      "../images/Maria/Maria5.jpeg",
+      "../images/Maria/Maria6.jpeg"
+    ],
+    "legacyFile": "newFaces/Maria.html"
+  },
+  {
+    "name": "Maria Damian",
+    "slug": "maria-damian",
+    "category": "new-faces",
+    "measurements": {
+      "height": "176cm (5\"8)",
+      "waist": "25 inch",
+      "hips": "35 inch"
+    },
+    "images": [
+      "../images/MariaDamian/MariaDamian1.jpg",
+      "../images/MariaDamian/MariaDamian2.JPG",
+      "../images/MariaDamian/MariaDamian3.PNG",
+      "../images/MariaDamian/MariaDamian4.JPG",
+      "../images/MariaDamian/MariaDamian5.JPG",
+      "../images/MariaDamian/MariaDamian6.JPG",
+      "../images/MariaDamian/MariaDamian7.PNG",
+      "../images/MariaDamian/MariaDamian8.JPG"
+    ],
+    "legacyFile": "newFaces/MariaDamian.html"
+  },
+  {
+    "name": "Marianna",
+    "slug": "marianna",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/Marianna/Marianna1.jpeg",
+      "../images/Marianna/Marianna1.jpeg",
+      "../images/Marianna/Marianna2.jpeg",
+      "../images/Marianna/Marianna3.jpeg",
+      "../images/Marianna/Marianna4.jpeg",
+      "../images/Marianna/Marianna5.jpeg"
+    ],
+    "legacyFile": "newFaces/Marianna.html"
+  },
+  {
+    "name": "Marina",
+    "slug": "marina",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "81.5 cm",
+      "waist": "52 cm",
+      "hips": "92 cm"
+    },
+    "images": [
+      "../images/Marina/Marina1.jpeg",
+      "../images/Marina/Marina2.jpeg",
+      "../images/Marina/Marina3.jpeg",
+      "../images/Marina/Marina4.jpeg",
+      "../images/Marina/Marina5.jpeg",
+      "../images/Marina/Marina6.jpeg",
+      "../images/Marina/Marina7.jpeg",
+      "../images/Marina/Marina8.jpeg"
+    ],
+    "legacyFile": "newFaces/Marina.html"
+  },
+  {
+    "name": "Marta",
+    "slug": "marta",
+    "category": "new-faces",
+    "measurements": {
+      "height": "166 cm",
+      "waist": "58 cm",
+      "hips": "96 cm"
+    },
+    "images": [
+      "../images/Marta/Marta1.jpg",
+      "../images/Marta/Marta2.jpg",
+      "../images/Marta/Marta3.jpg",
+      "../images/Marta/Marta4.jpg",
+      "../images/Marta/Marta5.jpg",
+      "../images/Marta/Marta6.jpg",
+      "../images/Marta/Marta7.jpg",
+      "../images/Marta/Marta8.jpg",
+      "../images/Marta/Marta9.jpg"
+    ],
+    "legacyFile": "newFaces/Marta.html"
+  },
+  {
+    "name": "Melody",
+    "slug": "melody",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Melody/Melody1.jpeg",
+      "../images/Melody/Melody1.jpeg",
+      "../images/Melody/Melody2.jpeg",
+      "../images/Melody/Melody3.jpeg",
+      "../images/Melody/Melody4.jpeg",
+      "../images/Melody/Melody5.jpeg"
+    ],
+    "legacyFile": "newFaces/Melody.html"
+  },
+  {
+    "name": "Mia",
+    "slug": "mia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "90 cm",
+      "waist": "60 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Mia/Mia1.jpg",
+      "../images/Mia/Mia2.jpg",
+      "../images/Mia/Mia3.jpg",
+      "../images/Mia/Mia4.jpg",
+      "../images/Mia/Mia5.jpg",
+      "../images/Mia/Mia6.jpg",
+      "../images/Mia/Mia7.jpg",
+      "../images/Mia/Mia8.jpg",
+      "../images/Mia/Mia9.jpg",
+      "../images/Mia/Mia10.jpg",
+      "../images/Mia/Mia11.jpg",
+      "../images/Mia/Mia12.jpg",
+      "../images/Mia/Mia13.jpg",
+      "../images/Mia/Mia14.jpg",
+      "../images/Mia/Mia15.jpg",
+      "../images/Mia/Mia16.jpg"
+    ],
+    "legacyFile": "newFaces/Mia.html"
+  },
+  {
+    "name": "Milica",
+    "slug": "milica",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Milica/1.jpg",
+      "../images/Milica/2.jpg",
+      "../images/Milica/3.jpg",
+      "../images/Milica/4.jpg",
+      "../images/Milica/5.jpg",
+      "../images/Milica/6.jpg",
+      "../images/Milica/7.jpg",
+      "../images/Milica/8.jpg",
+      "../images/Milica/9.jpg",
+      "../images/Milica/10.JPG",
+      "../images/Milica/11.JPG",
+      "../images/Milica/12.JPG",
+      "../images/Milica/13.JPG",
+      "../images/Milica/14.JPG",
+      "../images/Milica/15.JPG"
+    ],
+    "legacyFile": "newFaces/Milica.html"
+  },
+  {
+    "name": "Monica",
+    "slug": "monica",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "86 cm",
+      "waist": "61 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Monica/Monica1.jpg",
+      "../images/Monica/Monica2.jpg",
+      "../images/Monica/Monica3.jpg",
+      "../images/Monica/Monica4.jpg",
+      "../images/Monica/Monica5.jpg",
+      "../images/Monica/Monica6.jpg"
+    ],
+    "legacyFile": "newFaces/Monica.html"
+  },
+  {
+    "name": "Monica F",
+    "slug": "monica-f",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/MonicaF/MonicaF1.jpeg",
+      "../images/MonicaF/MonicaF2.jpeg",
+      "../images/MonicaF/MonicaF3.jpeg",
+      "../images/MonicaF/MonicaF4.jpeg",
+      "../images/MonicaF/MonicaF5.jpeg",
+      "../images/MonicaF/MonicaF6.jpeg",
+      "../images/MonicaF/MonicaF7.jpeg",
+      "../images/MonicaF/MonicaF8.jpeg",
+      "../images/MonicaF/MonicaF9.jpeg",
+      "../images/MonicaF/MonicaF10.jpeg",
+      "../images/MonicaF/MonicaF11.jpeg",
+      "../images/MonicaF/MonicaF12.jpeg",
+      "../images/MonicaF/MonicaF13.jpeg",
+      "../images/MonicaF/MonicaF14.jpeg",
+      "../images/MonicaF/MonicaF15.jpeg"
+    ],
+    "legacyFile": "newFaces/MonicaF.html"
+  },
+  {
+    "name": "Monica Hill",
+    "slug": "monica-hill",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "85 cm",
+      "waist": "65 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/MonicaHill/Monica1.jpeg",
+      "../images/MonicaHill/Monica2.jpeg",
+      "../images/MonicaHill/Monica3.jpeg",
+      "../images/MonicaHill/Monica4.jpeg",
+      "../images/MonicaHill/Monica5.jpeg",
+      "../images/MonicaHill/Monica6.jpeg",
+      "../images/MonicaHill/Monica7.jpeg",
+      "../images/MonicaHill/Monica8.jpeg",
+      "../images/MonicaHill/Monica9.jpeg",
+      "../images/MonicaHill/Monica10.jpeg",
+      "../images/MonicaHill/Monica11.jpeg",
+      "../images/MonicaHill/Monica12.jpeg",
+      "../images/MonicaHill/Monica13.jpeg",
+      "../images/MonicaHill/Monica14.jpeg",
+      "../images/MonicaHill/Monica15.jpeg"
+    ],
+    "legacyFile": "newFaces/MonicaH.html"
+  },
+  {
+    "name": "Monika",
+    "slug": "monika",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "86 cm",
+      "waist": "61 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Monika/Monika1.jpg",
+      "../images/Monika/Monika2.jpg",
+      "../images/Monika/Monika3.jpg",
+      "../images/Monika/Monika4.jpg",
+      "../images/Monika/Monika5.jpg",
+      "../images/Monika/Monika6.jpg",
+      "../images/Monika/Monika7.jpg",
+      "../images/Monika/Monika8.jpg"
+    ],
+    "legacyFile": "newFaces/Monika.html"
+  },
+  {
+    "name": "Natassja",
+    "slug": "natassja",
+    "category": "new-faces",
+    "measurements": {
+      "height": "181 cm",
+      "bust": "83 cm",
+      "waist": "63 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Natassja/08IMG_1660.jpeg",
+      "../images/Natassja/1(1).jpeg",
+      "../images/Natassja/09IMG_1619.JPG",
+      "../images/Natassja/1(2).jpeg",
+      "../images/Natassja/1(3).jpeg",
+      "../images/Natassja/1(4).JPEG",
+      "../images/Natassja/1(5).jpeg",
+      "../images/Natassja/1IMG_7329.JPG",
+      "../images/Natassja/2.JPEG",
+      "../images/Natassja/7.jpg"
+    ],
+    "legacyFile": "newFaces/Natassja.html"
+  },
+  {
+    "name": "Nina",
+    "slug": "nina",
+    "category": "new-faces",
+    "measurements": {
+      "height": "5.9'",
+      "bust": "33'",
+      "waist": "25'",
+      "hips": "35'"
+    },
+    "images": [
+      "../images/Nina/Nina1.PNG",
+      "../images/Nina/Nina2.JPG",
+      "../images/Nina/Nina3.JPG",
+      "../images/Nina/Nina4.JPG",
+      "../images/Nina/Nina5.JPG",
+      "../images/Nina/Nina6.JPG",
+      "../images/Nina/Nina7.JPG",
+      "../images/Nina/Nina8.JPG",
+      "../images/Nina/Nina9.jpg",
+      "../images/Nina/Nina10.jpg",
+      "../images/Nina/Nina11.JPG",
+      "../images/Nina/Nina12.JPG",
+      "../images/Nina/Nina13.JPG",
+      "../images/Nina/Nina14.JPG",
+      "../images/Nina/Nina15.JPG"
+    ],
+    "legacyFile": "newFaces/Nina.html"
+  },
+  {
+    "name": "Nour",
+    "slug": "nour",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "32.5",
+      "waist": "24.5",
+      "hips": "34"
+    },
+    "images": [
+      "../images/Nour/Nour1.png",
+      "../images/Nour/Nour2.jpg",
+      "../images/Nour/Nour3.jpg",
+      "../images/Nour/Nour4.png",
+      "../images/Nour/Nour5.jpeg",
+      "../images/Nour/Nour6.jpeg",
+      "../images/Nour/Nour7.jpeg",
+      "../images/Nour/Nour8.png",
+      "../images/Nour/Nour9.png",
+      "../images/Nour/Nour10.png",
+      "../images/Nour/Nour11.png",
+      "../images/Nour/Nour12.JPG",
+      "../images/Nour/Nour13.jpeg",
+      "../images/Nour/Nour14.jpeg",
+      "../images/Nour/Nour15.jpeg"
+    ],
+    "legacyFile": "newFaces/Nour.html"
+  },
+  {
+    "name": "Olivia Alonso",
+    "slug": "olivia-alonso",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "83 cm",
+      "waist": "62 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/OliviaAlonso/OliviaAlonso1.jpg",
+      "../images/OliviaAlonso/OliviaAlonso2.jpg",
+      "../images/OliviaAlonso/OliviaAlonso3.jpg",
+      "../images/OliviaAlonso/OliviaAlonso4.jpg",
+      "../images/OliviaAlonso/OliviaAlonso5.jpg",
+      "../images/OliviaAlonso/OliviaAlonso6.png",
+      "../images/OliviaAlonso/OliviaAlonso7.jpg",
+      "../images/OliviaAlonso/OliviaAlonso8.jpg",
+      "../images/OliviaAlonso/OliviaAlonso9.jpg",
+      "../images/OliviaAlonso/OliviaAlonso10.jpg",
+      "../images/OliviaAlonso/OliviaAlonso11.jpg",
+      "../images/OliviaAlonso/OliviaAlonso12.jpg",
+      "../images/OliviaAlonso/OliviaAlonso13.jpg",
+      "../images/OliviaAlonso/OliviaAlonso14.jpg",
+      "../images/OliviaAlonso/OliviaAlonso15.jpg"
+    ],
+    "legacyFile": "newFaces/OliviaAlonso.html"
+  },
+  {
+    "name": "Patricia",
+    "slug": "patricia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "179 cm",
+      "bust": "80 cm",
+      "waist": "60 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Patricia/Patricia1.JPG",
+      "../images/Patricia/Patricia2.JPG",
+      "../images/Patricia/Patricia3.JPG",
+      "../images/Patricia/Patricia4.jpeg",
+      "../images/Patricia/Patricia5.jpg",
+      "../images/Patricia/Patricia6.jpg",
+      "../images/Patricia/Patricia7.jpeg",
+      "../images/Patricia/Patricia8.JPG",
+      "../images/Patricia/Patricia9.JPG",
+      "../images/Patricia/Patricia10.jpeg",
+      "../images/Patricia/Patricia11.JPG",
+      "../images/Patricia/Patricia12.PNG",
+      "../images/Patricia/Patricia13.jpg",
+      "../images/Patricia/Patricia14.jpg",
+      "../images/Patricia/Patricia15.JPG"
+    ],
+    "legacyFile": "newFaces/Patricia.html"
+  },
+  {
+    "name": "Patrick",
+    "slug": "patrick",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Patrick/Patrick1.jpeg",
+      "../images/Patrick/Patrick2.jpeg",
+      "../images/Patrick/Patrick3.jpeg",
+      "../images/Patrick/Patrick4.jpeg",
+      "../images/Patrick/Patrick5.jpeg",
+      "../images/Patrick/Patrick6.jpeg",
+      "../images/Patrick/Patrick7.jpeg",
+      "../images/Patrick/Patrick8.jpeg",
+      "../images/Patrick/Patrick9.jpeg",
+      "../images/Patrick/Patrick10.jpeg",
+      "../images/Patrick/Patrick11.jpeg"
+    ],
+    "legacyFile": "newFaces/Patrick.html"
+  },
+  {
+    "name": "Paula",
+    "slug": "paula",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "87 cm",
+      "waist": "64 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Paula/1.jpg",
+      "../images/Paula/2.jpg",
+      "../images/Paula/3.jpg",
+      "../images/Paula/4.jpg",
+      "../images/Paula/5.jpg",
+      "../images/Paula/6.jpg",
+      "../images/Paula/7.jpg",
+      "../images/Paula/8.jpg",
+      "../images/Paula/9.jpg",
+      "../images/Paula/10.jpg",
+      "../images/Paula/11.jpg",
+      "../images/Paula/12.jpg",
+      "../images/Paula/13.jpg",
+      "../images/Paula/14.jpg",
+      "../images/Paula/15.jpg"
+    ],
+    "legacyFile": "newFaces/Paula.html"
+  },
+  {
+    "name": "Paula B",
+    "slug": "paula-b",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/paulab/paulab1.jpeg",
+      "../images/paulab/paulab2.jpeg",
+      "../images/paulab/paulab3.jpeg",
+      "../images/paulab/paulab4.jpeg",
+      "../images/paulab/paulab5.jpeg",
+      "../images/paulab/paulab6.jpeg",
+      "../images/paulab/paulab7.jpeg",
+      "../images/paulab/paulab8.jpeg",
+      "../images/paulab/paulab9.jpeg",
+      "../images/paulab/paulab10.jpeg",
+      "../images/paulab/paulab11.jpeg",
+      "../images/paulab/paulab12.jpeg"
+    ],
+    "legacyFile": "newFaces/PaulaB.html"
+  },
+  {
+    "name": "Rose",
+    "slug": "rose",
+    "category": "new-faces",
+    "measurements": {
+      "height": "170 cm",
+      "waist": "62 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Rose/Rose.jpg",
+      "../images/Rose/Rose2.jpg",
+      "../images/Rose/Rose3.jpg",
+      "../images/Rose/Rose4.jpg",
+      "../images/Rose/Rose5.jpg",
+      "../images/Rose/Rose6.jpg",
+      "../images/Rose/Rose7.jpg",
+      "../images/Rose/Rose8.jpg"
+    ],
+    "legacyFile": "newFaces/Rose.html"
+  },
+  {
+    "name": "Sander",
+    "slug": "sander",
+    "category": "new-faces",
+    "measurements": {
+      "height": "170 cm",
+      "bust": "84 cm",
+      "waist": "64 cm",
+      "hips": "94 cm"
+    },
+    "images": [
+      "../images/Sander/Sander1.jpeg",
+      "../images/Sander/Sander2.jpeg",
+      "../images/Sander/Sander3.jpeg",
+      "../images/Sander/Sander4.jpeg",
+      "../images/Sander/Sander5.jpeg",
+      "../images/Sander/Sander6.jpeg"
+    ],
+    "legacyFile": "newFaces/Sander.html"
+  },
+  {
+    "name": "Sara",
+    "slug": "sara",
+    "category": "new-faces",
+    "measurements": {
+      "height": "178 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Sara B/Sara1.jpeg",
+      "../images/Sara B/Sara2.jpeg",
+      "../images/Sara B/Sara3.jpeg",
+      "../images/Sara B/Sara4.jpeg",
+      "../images/Sara B/Sara5.jpeg",
+      "../images/Sara B/Sara6.jpeg",
+      "../images/Sara B/Sara7.jpeg",
+      "../images/Sara B/Sara8.jpeg",
+      "../images/Sara B/Sara9.jpeg",
+      "../images/Sara B/Sara10.jpeg",
+      "../images/Sara B/Sara11.jpeg",
+      "../images/Sara B/Sara12.jpeg",
+      "../images/Sara B/Sara13.jpeg",
+      "../images/Sara B/Sara14.jpeg",
+      "../images/Sara B/Sara15.jpeg"
+    ],
+    "legacyFile": "newFaces/Sara.html"
+  },
+  {
+    "name": "saudi",
+    "slug": "saudi",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/saudi/Saudi1.jpeg",
+      "../images/saudi/Saudi2.jpeg",
+      "../images/saudi/Saudi3.jpeg",
+      "../images/saudi/Saudi4.jpeg",
+      "../images/saudi/Saudi5.jpeg",
+      "../images/saudi/Saudi6.jpeg",
+      "../images/saudi/Saudi7.jpeg",
+      "../images/saudi/Saudi8.jpeg"
+    ],
+    "legacyFile": "newFaces/Saudi.html"
+  },
+  {
+    "name": "Saule",
+    "slug": "saule",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Saule/Saule1.jpeg",
+      "../images/Saule/Saule1.jpeg",
+      "../images/Saule/Saule2.jpeg",
+      "../images/Saule/Saule3.jpeg",
+      "../images/Saule/Saule4.jpeg"
+    ],
+    "legacyFile": "newFaces/Saule.html"
+  },
+  {
+    "name": "Shima",
+    "slug": "shima",
+    "category": "new-faces",
+    "measurements": {
+      "height": "5'6''",
+      "bust": "40''",
+      "waist": "30''",
+      "hips": "44''"
+    },
+    "images": [
+      "../images/Shima/Shima1.jpeg",
+      "../images/Shima/Shima1.jpeg",
+      "../images/Shima/Shima3.jpeg",
+      "../images/Shima/Shima2.jpeg"
+    ],
+    "legacyFile": "newFaces/Shima.html"
+  },
+  {
+    "name": "Sim",
+    "slug": "sim",
+    "category": "new-faces",
+    "measurements": {
+      "height": "176 cm",
+      "bust": "84 cm",
+      "waist": "60 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/sim/sim1.jpg",
+      "../images/sim/sim2.JPG",
+      "../images/sim/sim3.JPG",
+      "../images/sim/sim4.JPG",
+      "../images/sim/sim5.JPG",
+      "../images/sim/sim6.jpeg",
+      "../images/sim/sim7.jpg",
+      "../images/sim/sim8.jpg",
+      "../images/sim/sim9.jpg",
+      "../images/sim/sim10.jpg"
+    ],
+    "legacyFile": "newFaces/Sim.html"
+  },
+  {
+    "name": "Simona",
+    "slug": "simona",
+    "category": "new-faces",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "81 cm",
+      "waist": "66 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/Simona/Simona1.jpeg",
+      "../images/Simona/Simona2.jpeg",
+      "../images/Simona/Simona3.jpeg",
+      "../images/Simona/Simona4.JPG",
+      "../images/Simona/Simona5.jpeg",
+      "../images/Simona/Simona6.jpeg",
+      "../images/Simona/Simona7.jpeg",
+      "../images/Simona/Simona8.jpeg",
+      "../images/Simona/Simona9.jpeg",
+      "../images/Simona/Simona10.jpeg",
+      "../images/Simona/Simona11.jpeg",
+      "../images/Simona/Simona12.jpeg",
+      "../images/Simona/Simona13.jpeg",
+      "../images/Simona/Simona14.jpeg",
+      "../images/Simona/Simona15.jpeg"
+    ],
+    "legacyFile": "newFaces/Simona.html"
+  },
+  {
+    "name": "Sofi",
+    "slug": "sofi",
+    "category": "new-faces",
+    "measurements": {
+      "height": "171 cm",
+      "bust": "85 cm",
+      "waist": "58 cm",
+      "hips": "82 cm"
+    },
+    "images": [
+      "../images/Sofi/Sofi1.jpg",
+      "../images/Sofi/Sofi2.jpg",
+      "../images/Sofi/Sofi3.jpg",
+      "../images/Sofi/Sofi4.jpg",
+      "../images/Sofi/Sofi5.jpg",
+      "../images/Sofi/Sofi6.jpg",
+      "../images/Sofi/Sofi7.JPG",
+      "../images/Sofi/Sofi8.JPG"
+    ],
+    "legacyFile": "newFaces/Sofi.html"
+  },
+  {
+    "name": "Solomiia",
+    "slug": "solomiia",
+    "category": "new-faces",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "89 cm",
+      "waist": "61 cm",
+      "hips": "90 cm"
+    },
+    "images": [
+      "../images/Solomiia/1.jpeg",
+      "../images/Solomiia/1.jpeg",
+      "../images/Solomiia/2.jpeg",
+      "../images/Solomiia/3.jpeg"
+    ],
+    "legacyFile": "newFaces/Solomiia.html"
+  },
+  {
+    "name": "Tyler",
+    "slug": "tyler",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/Tyler/Tyler1.JPG",
+      "../images/Tyler/Tyler2.JPG",
+      "../images/Tyler/Tyler3.jpg",
+      "../images/Tyler/Tyler4.jpg",
+      "../images/Tyler/Tyler5.jpg",
+      "../images/Tyler/Tyler6.jpg",
+      "../images/Tyler/Tyler8.jpg",
+      "../images/Tyler/Tyler9.jpg",
+      "../images/Tyler/Tyler10.JPG",
+      "../images/Tyler/Tyler11.JPG"
+    ],
+    "legacyFile": "newFaces/Tyler.html"
+  },
+  {
+    "name": "Ula",
+    "slug": "ula",
+    "category": "new-faces",
+    "measurements": {},
+    "images": [
+      "../images/ula/ula1.jpeg",
+      "../images/ula/ula2.jpeg",
+      "../images/ula/ula3.jpeg",
+      "../images/ula/ula4.jpeg",
+      "../images/ula/ula5.jpeg",
+      "../images/ula/ula6.jpeg",
+      "../images/ula/ula7.jpeg",
+      "../images/ula/ula8.jpeg",
+      "../images/ula/ula9.jpeg",
+      "../images/ula/ula10.jpeg",
+      "../images/ula/ula11.jpeg",
+      "../images/ula/ula12.jpeg"
+    ],
+    "legacyFile": "newFaces/Ula.html"
+  },
+  {
+    "name": "Valerie",
+    "slug": "valerie",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "32.5",
+      "waist": "24.5",
+      "hips": "34"
+    },
+    "images": [
+      "../images/Valerie/Valerie1.jpg",
+      "../images/Valerie/Valerie2.jpg",
+      "../images/Valerie/Valerie3.jpg",
+      "../images/Valerie/Valerie4.JPG",
+      "../images/Valerie/Valerie5.jpg",
+      "../images/Valerie/Valerie6.jpg",
+      "../images/Valerie/Valerie7.JPG",
+      "../images/Valerie/Valerie8.JPG",
+      "../images/Valerie/Valerie9.JPG",
+      "../images/Valerie/Valerie10.JPG",
+      "../images/Valerie/Valerie11.JPG",
+      "../images/Valerie/Valerie12.JPG",
+      "../images/Valerie/Valerie13.JPG",
+      "../images/Valerie/Valerie14.JPG",
+      "../images/Valerie/Valerie15.JPG"
+    ],
+    "legacyFile": "newFaces/Valerie.html"
+  },
+  {
+    "name": "Valery",
+    "slug": "valery",
+    "category": "new-faces",
+    "measurements": {
+      "height": "178 cm",
+      "bust": "91 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Valery/Valery1.jpg",
+      "../images/Valery/Valery2.jpg",
+      "../images/Valery/Valery3.jpg",
+      "../images/Valery/Valery4.jpg",
+      "../images/Valery/Valery5.jpg",
+      "../images/Valery/Valery6.jpg",
+      "../images/Valery/Valery7.jpg",
+      "../images/Valery/Valery8.jpg",
+      "../images/Valery/Valery9.jpg",
+      "../images/Valery/Valery10.jpg",
+      "../images/Valery/Valery11.jpg",
+      "../images/Valery/Valery12.jpg",
+      "../images/Valery/Valery13.jpg",
+      "../images/Valery/Valery14.jpg",
+      "../images/Valery/Valery15.jpg"
+    ],
+    "legacyFile": "newFaces/Valery.html"
+  },
+  {
+    "name": "Veronika",
+    "slug": "veronika",
+    "category": "new-faces",
+    "measurements": {
+      "height": "175 cm",
+      "bust": "93 cm",
+      "waist": "65 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/Veronika/Veronika1.jpeg",
+      "../images/Veronika/Veronika2.jpeg",
+      "../images/Veronika/Veronika3.jpeg",
+      "../images/Veronika/Veronika4.jpeg",
+      "../images/Veronika/Veronika5.jpeg",
+      "../images/Veronika/Veronika6.jpeg",
+      "../images/Veronika/Veronika7.jpeg",
+      "../images/Veronika/Veronika8.jpeg"
+    ],
+    "legacyFile": "newFaces/Veronika.html"
+  },
+  {
+    "name": "Vita",
+    "slug": "vita",
+    "category": "new-faces",
+    "measurements": {
+      "height": "179 cm",
+      "bust": "90 cm",
+      "waist": "67 cm",
+      "hips": "96 cm"
+    },
+    "images": [
+      "../images/Vita/Vita1.jpg",
+      "../images/Vita/Vita2.jpg",
+      "../images/Vita/Vita3.jpg",
+      "../images/Vita/Vita4.jpg",
+      "../images/Vita/Vita5.jpg",
+      "../images/Vita/Vita6.jpg",
+      "../images/Vita/Vita7.jpg",
+      "../images/Vita/Vita8.jpg",
+      "../images/Vita/Vita9.jpg",
+      "../images/Vita/Vita10.jpg",
+      "../images/Vita/Vita11.jpg",
+      "../images/Vita/Vita12.jpg",
+      "../images/Vita/Vita13.jpg",
+      "../images/Vita/Vita14.jpg",
+      "../images/Vita/Vita15.jpg"
+    ],
+    "legacyFile": "newFaces/Vita.html"
+  },
+  {
+    "name": "Yasmin",
+    "slug": "yasmin",
+    "category": "new-faces",
+    "measurements": {
+      "height": "170 cm",
+      "waist": "65 cm",
+      "hips": "95 cm"
+    },
+    "images": [
+      "../images/Yasmin/Yasmin1.jpeg",
+      "../images/Yasmin/Yasmin1.jpeg",
+      "../images/Yasmin/Yasmin2.jpeg",
+      "../images/Yasmin/Yasmin3.jpeg",
+      "../images/Yasmin/Yasmin4.jpeg"
+    ],
+    "legacyFile": "newFaces/Yasmin.html"
+  },
+  {
+    "name": "Yshantis",
+    "slug": "yshantis",
+    "category": "new-faces",
+    "measurements": {
+      "height": "171 cm",
+      "bust": "77 cm",
+      "waist": "60 cm",
+      "hips": "82 cm"
+    },
+    "images": [
+      "../images/Yshantis/1.jpeg",
+      "../images/Yshantis/2.jpeg",
+      "../images/Yshantis/3.jpeg",
+      "../images/Yshantis/4.jpeg",
+      "../images/Yshantis/5.jpeg",
+      "../images/Yshantis/6.jpeg",
+      "../images/Yshantis/7.jpeg",
+      "../images/Yshantis/8.jpeg",
+      "../images/Yshantis/9.jpeg",
+      "../images/Yshantis/10.jpeg"
+    ],
+    "legacyFile": "newFaces/Yshantis.html"
+  },
+  {
+    "name": "Yulia Mudrovska",
+    "slug": "yulia-mudrovska",
+    "category": "new-faces",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "32.5",
+      "waist": "24.5",
+      "hips": "34"
+    },
+    "images": [
+      "../images/YuliaMudrovska/Yulia1.PNG",
+      "../images/YuliaMudrovska/Yulia2.JPG",
+      "../images/YuliaMudrovska/Yulia3.JPG",
+      "../images/YuliaMudrovska/Yulia4.PNG",
+      "../images/YuliaMudrovska/Yulia5.PNG",
+      "../images/YuliaMudrovska/Yulia6.jpg",
+      "../images/YuliaMudrovska/Yulia7.JPG",
+      "../images/YuliaMudrovska/Yulia8.JPG",
+      "../images/YuliaMudrovska/Yulia9.JPG",
+      "../images/YuliaMudrovska/Yulia10.jpg",
+      "../images/YuliaMudrovska/Yulia11.jpg",
+      "../images/YuliaMudrovska/Yulia12.jpg",
+      "../images/YuliaMudrovska/Yulia13.JPG",
+      "../images/YuliaMudrovska/Yulia14.JPG",
+      "../images/YuliaMudrovska/Yulia15.PNG"
+    ],
+    "legacyFile": "newFaces/Yulia.html"
+  },
+  {
+    "name": "ema",
+    "slug": "ema",
+    "category": "new-faces",
+    "measurements": {
+      "height": "171 cm",
+      "bust": "88 cm",
+      "waist": "60 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/ema/ema1.PNG",
+      "../images/ema/ema2.PNG",
+      "../images/ema/ema3.PNG",
+      "../images/ema/ema4.PNG",
+      "../images/ema/ema5.PNG",
+      "../images/ema/ema6.PNG",
+      "../images/ema/ema7.PNG",
+      "../images/ema/ema8.PNG",
+      "../images/ema/ema9.PNG",
+      "../images/ema/ema10.PNG",
+      "../images/ema/ema11.PNG",
+      "../images/ema/ema12.PNG",
+      "../images/ema/ema13.PNG",
+      "../images/ema/ema14.PNG"
+    ],
+    "legacyFile": "newFaces/ema.html"
+  },
+  {
+    "name": "",
+    "slug": "",
+    "category": "new-faces",
+    "measurements": {
+      "bust": "85 cm",
+      "waist": "67 cm",
+      "hips": "97 cm"
+    },
+    "images": [
+      "../images/idk/1.jpeg",
+      "../images/idk/2.jpeg",
+      "../images/idk/3.jpeg",
+      "../images/idk/4.jpeg",
+      "../images/idk/5.jpeg",
+      "../images/idk/6.jpeg",
+      "../images/idk/7.jpeg",
+      "../images/idk/8.jpeg",
+      "../images/idk/9.jpeg",
+      "../images/idk/10.jpeg",
+      "../images/idk/11.jpeg",
+      "../images/idk/12.jpeg",
+      "../images/idk/14.jpeg",
+      "../images/idk/15.jpeg"
+    ],
+    "legacyFile": "newFaces/idk.html"
+  },
+  {
+    "name": "Leiza",
+    "slug": "leiza",
+    "category": "new-faces",
+    "measurements": {
+      "height": "186 cm",
+      "bust": "78 cm",
+      "waist": "63 cm",
+      "hips": "93 cm"
+    },
+    "images": [
+      "../images/leiza/leiza1.jpeg",
+      "../images/leiza/leiza2.jpeg",
+      "../images/leiza/leiza3.jpeg",
+      "../images/leiza/leiza4.jpeg",
+      "../images/leiza/leiza5.jpeg",
+      "../images/leiza/leiza6.jpeg",
+      "../images/leiza/leiza7.jpeg",
+      "../images/leiza/leiza8.jpg",
+      "../images/leiza/leiza9.jpeg",
+      "../images/leiza/leiza10.jpeg",
+      "../images/leiza/leiza11.jpeg",
+      "../images/leiza/leiza12.jpeg",
+      "../images/leiza/leiza13.jpeg",
+      "../images/leiza/leiza14.jpeg"
+    ],
+    "legacyFile": "newFaces/leiza.html"
+  },
+  {
+    "name": "Diana D",
+    "slug": "diana-d",
+    "category": "in-town",
+    "measurements": {
+      "height": "177 cm",
+      "bust": "83 cm",
+      "waist": "64 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/DianaD/DianaD1.JPG",
+      "../images/DianaD/DianaD2.JPG",
+      "../images/DianaD/DianaD3.jpg",
+      "../images/DianaD/DianaD4.JPG",
+      "../images/DianaD/DianaD5.JPG",
+      "../images/DianaD/DianaD6.JPG",
+      "../images/DianaD/DianaD7.JPG",
+      "../images/DianaD/DianaD8.jpg",
+      "../images/DianaD/DianaD9.JPG",
+      "../images/DianaD/DianaD10.jpg",
+      "../images/DianaD/DianaD11.jpg",
+      "../images/DianaD/DianaD12.jpeg",
+      "../images/DianaD/DianaD13.PNG",
+      "../images/DianaD/DianaD14.JPG",
+      "../images/DianaD/DianaD15.PNG",
+      "../images/DianaD/DianaD16.JPG",
+      "../images/DianaD/DianaD17.JPG",
+      "../images/DianaD/DianaD18.PNG",
+      "../images/DianaD/DianaD19.JPG",
+      "../images/DianaD/DianaD20.jpeg"
+    ],
+    "legacyFile": "InTown/DianaD.html"
+  },
+  {
+    "name": "Eduarda",
+    "slug": "eduarda",
+    "category": "in-town",
+    "measurements": {
+      "height": "165 cm",
+      "bust": "80 cm",
+      "waist": "70 cm",
+      "hips": "100 cm"
+    },
+    "images": [
+      "../images/Eduarda/Eduarda1.jpeg",
+      "../images/Eduarda/Eduarda3.jpeg",
+      "../images/Eduarda/Eduarda4.jpeg",
+      "../images/Eduarda/Eduarda5.jpeg",
+      "../images/Eduarda/Eduarda6.jpeg",
+      "../images/Eduarda/Eduarda7.jpeg",
+      "../images/Eduarda/Eduarda8.jpeg",
+      "../images/Eduarda/Eduarda9.jpeg",
+      "../images/Eduarda/Eduarda10.jpeg",
+      "../images/Eduarda/Eduarda11.jpeg",
+      "../images/Eduarda/Eduarda12.jpeg",
+      "../images/Eduarda/Eduarda13.jpeg",
+      "../images/Eduarda/Eduarda14.jpeg",
+      "../images/Eduarda/Eduarda15.jpeg"
+    ],
+    "legacyFile": "InTown/Eduarda.html"
+  },
+  {
+    "name": "Nandin",
+    "slug": "nandin",
+    "category": "in-town",
+    "measurements": {},
+    "images": [
+      "../images/Nandin/Nandin10.jpg",
+      "../images/Nandin/Nandin1.jpg",
+      "../images/Nandin/Nandin2.jpg",
+      "../images/Nandin/Nandin3.jpg",
+      "../images/Nandin/Nandin4.jpg",
+      "../images/Nandin/Nandin5.jpg",
+      "../images/Nandin/Nandin6.jpg",
+      "../images/Nandin/Nandin7.jpg",
+      "../images/Nandin/Nandin8.jpg",
+      "../images/Nandin/Nandin10.jpg",
+      "../images/Nandin/Nandin11.jpg",
+      "../images/Nandin/Nandin12.jpg",
+      "../images/Nandin/Nandin13.jpg",
+      "../images/Nandin/Nandin14.jpg",
+      "../images/Nandin/Nandin15.jpg"
+    ],
+    "legacyFile": "InTown/Nandin.html"
+  },
+  {
+    "name": "Olga",
+    "slug": "olga",
+    "category": "in-town",
+    "measurements": {
+      "height": "170 cm",
+      "bust": "90 cm",
+      "waist": "61 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Olga/Olga1.jpg",
+      "../images/Olga/Olga2.jpg",
+      "../images/Olga/Olga3.jpg",
+      "../images/Olga/Olga4.JPG",
+      "../images/Olga/Olga5.JPG",
+      "../images/Olga/Olga6.JPG",
+      "../images/Olga/Olga7.JPG",
+      "../images/Olga/Olga8.JPG",
+      "../images/Olga/Olga9.JPG",
+      "../images/Olga/Olga10.JPG",
+      "../images/Olga/Olga11.JPG",
+      "../images/Olga/Olga12.JPG",
+      "../images/Olga/Olga13.JPG",
+      "../images/Olga/Olga14.JPG",
+      "../images/Olga/Olga15.JPG"
+    ],
+    "legacyFile": "InTown/Olga.html"
+  },
+  {
+    "name": "Paulina",
+    "slug": "paulina",
+    "category": "in-town",
+    "measurements": {
+      "height": "178 cm",
+      "bust": "95 cm",
+      "waist": "61 cm",
+      "hips": "91 cm"
+    },
+    "images": [
+      "../images/Paulina/Paulina1.jpeg",
+      "../images/Paulina/Paulina2.jpeg",
+      "../images/Paulina/Paulina3.jpeg",
+      "../images/Paulina/Paulina4.jpeg",
+      "../images/Paulina/Paulina5.jpeg",
+      "../images/Paulina/Paulina6.jpeg",
+      "../images/Paulina/Paulina7.jpg"
+    ],
+    "legacyFile": "InTown/Paulina.html"
+  },
+  {
+    "name": "Sarah",
+    "slug": "sarah",
+    "category": "in-town",
+    "measurements": {},
+    "images": [
+      "../images/Sarah/Sarah1.jpg",
+      "../images/Sarah/Sarah2.jpg",
+      "../images/Sarah/Sarah3.jpg",
+      "../images/Sarah/Sarah4.jpg",
+      "../images/Sarah/Sarah5.png",
+      "../images/Sarah/Sarah6.JPG",
+      "../images/Sarah/Sarah7.jpg",
+      "../images/Sarah/Sarah8.JPEG",
+      "../images/Sarah/Sarah9.JPEG",
+      "../images/Sarah/Sarah10.jpg"
+    ],
+    "legacyFile": "InTown/Sarah.html"
+  },
+  {
+    "name": "Susie",
+    "slug": "susie",
+    "category": "in-town",
+    "measurements": {
+      "height": "173 cm",
+      "bust": "81.5 cm",
+      "waist": "62.5 cm",
+      "hips": "99 cm"
+    },
+    "images": [
+      "../images/Susie/Susie1.jpg",
+      "../images/Susie/Susie2.jpg",
+      "../images/Susie/Susie3.jpg",
+      "../images/Susie/Susie4.jpg",
+      "../images/Susie/Susie5.jpg",
+      "../images/Susie/Susie6.jpg",
+      "../images/Susie/Susie7.jpg",
+      "../images/Susie/Susie8.jpg",
+      "../images/Susie/Susie9.jpg",
+      "../images/Susie/Susie10.jpg"
+    ],
+    "legacyFile": "InTown/Susie.html"
+  },
+  {
+    "name": "denisa",
+    "slug": "denisa",
+    "category": "in-town",
+    "measurements": {
+      "height": "168 cm",
+      "bust": "78 cm",
+      "waist": "60 cm",
+      "hips": "80 cm"
+    },
+    "images": [
+      "../images/denisa/denisa1.jpeg",
+      "../images/denisa/denisa2.jpeg",
+      "../images/denisa/denisa3.jpeg",
+      "../images/denisa/denisa4.jpeg",
+      "../images/denisa/denisa5.jpeg",
+      "../images/denisa/denisa6.jpeg",
+      "../images/denisa/denisa7.jpeg",
+      "../images/denisa/denisa8.jpeg"
+    ],
+    "legacyFile": "InTown/denisa.html"
+  },
+  {
+    "name": "Alysha",
+    "slug": "alysha",
+    "category": "direct-booking",
+    "measurements": {
+      "height": "180 cm",
+      "bust": "81 cm",
+      "waist": "66 cm",
+      "hips": "89 cm"
+    },
+    "images": [
+      "../images/Alysha/Alysha1.jpg",
+      "../images/Alysha/Alysha2.jpg",
+      "../images/Alysha/Alysha3.jpg",
+      "../images/Alysha/Alysha4.jpg",
+      "../images/Alysha/Alysha5.jpg",
+      "../images/Alysha/Alysha6.jpg",
+      "../images/Alysha/Alysha7.jpg",
+      "../images/Alysha/Alysha8.jpg",
+      "../images/Alysha/Alysha9.jpg"
+    ],
+    "legacyFile": "DirectBooking/Alysha.html"
+  },
+  {
+    "name": "Michaela",
+    "slug": "michaela",
+    "category": "direct-booking",
+    "measurements": {
+      "bust": "78 cm",
+      "waist": "60 cm",
+      "hips": "88 cm"
+    },
+    "images": [
+      "../images/Michaela/Michaela1.jpg",
+      "../images/Michaela/Michaela2.jpeg",
+      "../images/Michaela/Michaela3.JPG",
+      "../images/Michaela/Michaela4.JPG",
+      "../images/Michaela/Michaela5.JPG",
+      "../images/Michaela/Michaela6.JPG",
+      "../images/Michaela/Michaela7.jpg",
+      "../images/Michaela/Michaela8.JPG",
+      "../images/Michaela/Michaela9.JPG",
+      "../images/Michaela/Michaela10.jpg",
+      "../images/Michaela/Michaela11.jpg",
+      "../images/Michaela/Michaela12.jpg",
+      "../images/Michaela/Michaela13.jpg",
+      "../images/Michaela/Michaela14.jpg",
+      "../images/Michaela/Michaela16.jpg",
+      "../images/Michaela/Michaela17.jpeg"
+    ],
+    "legacyFile": "DirectBooking/Michaela.html"
+  }
+]

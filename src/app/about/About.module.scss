@@ -1,0 +1,276 @@
+@use "../../styles/mixins" as mixins;
+
+.page {
+  overflow-x: clip;
+}
+
+.hero {
+  min-height: 88svh;
+  padding-block: 140px 64px;
+  background: #111111;
+  color: #ffffff;
+}
+
+.heroInner {
+  @include mixins.container;
+  min-height: calc(88svh - 204px);
+  display: flex;
+  flex-direction: column;
+}
+
+.heroTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  span:last-child {
+    opacity: 0.5;
+  }
+}
+
+.heroContent {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(240px, 1fr);
+  align-items: end;
+  gap: 72px;
+  padding-top: 56px;
+}
+
+.heroTitle {
+  margin: 0;
+  font-family: var(--font-display), serif;
+  font-size: clamp(4.5rem, 8.4vw, 9.5rem);
+  font-weight: 400;
+  line-height: 0.78;
+  letter-spacing: -0.055em;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+  }
+}
+
+.heroSide {
+  max-width: 310px;
+  padding-bottom: 16px;
+}
+
+.heroIndex {
+  display: block;
+  margin-bottom: 32px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.45;
+}
+
+.heroSide p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+
+.story {
+  padding-block: 140px;
+  background: #f4f2ed;
+  color: #111111;
+}
+
+.storyInner {
+  @include mixins.container;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  column-gap: clamp(64px, 9vw, 150px);
+  row-gap: 64px;
+}
+
+.imageReveal {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  min-width: 0;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  object-fit: cover;
+}
+
+.imageCaption {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  color: #ffffff;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+}
+
+.storyContent {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 600px;
+}
+
+.storyIndex {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.storyTitle {
+  margin: 0 0 64px;
+  font-family: var(--font-display), serif;
+  font-size: clamp(4rem, 7vw, 8rem);
+  font-weight: 400;
+  line-height: 0.82;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+
+  span {
+    display: block;
+  }
+}
+
+.storyText {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+  p {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.75;
+    opacity: 0.7;
+  }
+}
+
+.storyLabel {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+@media (max-width: 1024px) {
+  .heroContent {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .heroSide {
+    margin-left: auto;
+  }
+
+  .storyInner {
+    gap: 64px;
+  }
+
+  .storyText {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding-block: 110px 64px;
+  }
+
+  .heroInner {
+    min-height: auto;
+  }
+
+  .heroContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding-top: 120px;
+  }
+
+  .heroTitle {
+    font-size: clamp(2.75rem, 12vw, 4.25rem);
+    line-height: 0.84;
+    letter-spacing: -0.045em;
+  }
+
+  .heroSide {
+    max-width: 320px;
+    margin-left: 0;
+    padding-bottom: 0;
+  }
+
+  .heroIndex {
+    margin-bottom: 20px;
+  }
+
+  .story {
+    padding-block: 80px;
+  }
+
+  .storyInner {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 0;
+    column-gap: 0;
+  }
+
+  .imageReveal {
+    grid-column: 1;
+    grid-row: 2;
+
+    min-width: 0;
+    margin-bottom: 64px;
+  }
+
+  .storyLabel {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 32px;
+  }
+
+  .image {
+    max-height: none;
+  }
+
+  .storyContent {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: 100%;
+  }
+
+  .storyIndex {
+    max-width: 100%;
+  }
+
+  .storyTitle {
+    margin-bottom: 48px;
+    font-size: clamp(3.2rem, 14vw, 5rem);
+  }
+
+  .storyText {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}

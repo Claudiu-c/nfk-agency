@@ -1,0 +1,186 @@
+@use "../../styles/mixins" as mixins;
+
+.page {
+  min-height: 100vh;
+  padding-block: 160px 120px;
+
+  background: #f4f2ed;
+  color: #111111;
+}
+
+.inner {
+  @include mixins.container;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: end;
+
+  margin-bottom: 80px;
+}
+
+.eyebrow {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+
+  font-family: var(--font-display), serif;
+  font-size: clamp(5rem, 10vw, 10rem);
+  font-weight: 400;
+  line-height: 0.8;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.count {
+  margin: 0;
+
+  justify-self: end;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px 24px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+
+  a {
+    position: relative;
+
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.45;
+    transition: opacity 200ms ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.activeFilter {
+  opacity: 1 !important;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+  }
+}
+
+.toolbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.empty {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.emptyIndex {
+  margin-bottom: 24px;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  opacity: 0.45;
+}
+
+.emptyTitle {
+  margin: 0 0 32px;
+  font-family: var(--font-display), serif;
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.clearFilters {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.filterGroups {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-block: 120px 80px;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+    gap: 16px;
+
+    margin-bottom: 48px;
+  }
+
+  .count {
+    justify-self: start;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .filterGroups {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .filters {
+    gap: 24px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    a {
+      flex-shrink: 0;
+    }
+  }
+
+  .toolbar {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 40px;
+  }
+}

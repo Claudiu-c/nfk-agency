@@ -1,0 +1,151 @@
+@use "../../styles/mixins" as mixins;
+
+.section {
+  padding-block: 40px 140px;
+  background: #f4f2ed;
+  color: #111111;
+}
+
+.inner {
+  @include mixins.container;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 64px;
+  margin-bottom: 100px;
+}
+
+.index {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.intro {
+  max-width: 320px;
+  justify-self: end;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  opacity: 0.6;
+}
+
+.services {
+  border-top: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.service {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 2fr) minmax(240px, 1fr) 32px;
+  align-items: center;
+  gap: 40px;
+  min-height: 190px;
+  padding-block: 36px;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.number {
+  align-self: start;
+  padding-top: 12px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  opacity: 0.45;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display), serif;
+  font-size: clamp(3rem, 5.5vw, 6.5rem);
+  font-weight: 400;
+  line-height: 0.82;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+.description {
+  max-width: 320px;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  opacity: 0.65;
+}
+
+.arrow {
+  justify-self: end;
+  font-size: 1.1rem;
+  transition: transform 350ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .service {
+    &:hover {
+      .arrow {
+        transform: translate(4px, 4px);
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .service {
+    grid-template-columns: 60px minmax(0, 1.5fr) minmax(220px, 1fr) 24px;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-block: 20px 80px;
+  }
+  .header {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 56px;
+  }
+  .intro {
+    max-width: 300px;
+    justify-self: start;
+  }
+  .service {
+    grid-template-columns: 1fr 24px;
+    align-items: start;
+    gap: 20px 16px;
+    min-height: 0;
+    padding-block: 32px;
+  }
+  .number {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 0;
+  }
+  .title {
+    grid-column: 1/-1;
+    grid-row: 2;
+    min-width: 0;
+    font-size: clamp(2.45rem, 10.5vw, 3.6rem);
+    line-height: 0.86;
+  }
+  .description {
+    grid-column: 1/-1;
+    grid-row: 3;
+    max-width: 310px;
+    margin-top: 10px;
+  }
+  .arrow {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    padding-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arrow {
+    transition: none;
+  }
+}
