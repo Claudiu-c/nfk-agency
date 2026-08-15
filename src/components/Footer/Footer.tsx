@@ -63,10 +63,12 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Instagram ↗
+                    Instagram {"\u2197\uFE0E"}
                   </a>
 
-                  <a href="mailto:agency.nfk@gmail.com">Email ↗</a>
+                  <a href="mailto:agency.nfk@gmail.com">
+                    Email {"\u2197\uFE0E"}
+                  </a>
                 </div>
               </div>
             </div>

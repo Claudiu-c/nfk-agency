@@ -36,7 +36,7 @@ export default function InTown() {
           <Reveal delay={180}>
             <Link href="/models?category=in-town" className={styles.viewAll}>
               View all in town
-              <span aria-hidden="true">↘</span>
+              <span aria-hidden="true">{"\u2198\uFE0E"}</span>
             </Link>
           </Reveal>
         </div>

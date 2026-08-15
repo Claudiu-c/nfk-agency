@@ -73,7 +73,7 @@ export default function ContactPage() {
                 </div>
 
                 <span className={styles.arrow} aria-hidden="true">
-                  ↗
+                  {"\u2197\uFE0E"}
                 </span>
               </a>
             </Reveal>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 </div>
 
                 <span className={styles.arrow} aria-hidden="true">
-                  ↗
+                  {"\u2197\uFE0E"}
                 </span>
               </a>
             </Reveal>
@@ -121,7 +121,7 @@ export default function ContactPage() {
               </span>
               <Link href="/join" className={styles.joinLink}>
                 Apply to NFK
-                <span aria-hidden="true">↗</span>
+                <span aria-hidden="true">{"\u2197\uFE0E"}</span>
               </Link>
             </div>
           </Reveal>

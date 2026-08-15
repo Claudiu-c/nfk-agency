@@ -197,7 +197,7 @@ export default function Hero() {
 
           <Link href="/models" className={styles.link}>
             Explore Models
-            <span aria-hidden="true">↘</span>
+            <span aria-hidden="true">{"\u2198\uFE0E"}</span>
           </Link>
         </div>
       </div>

@@ -63,7 +63,7 @@ export default function Region() {
                 <span className={styles.regionName}>{region.name}</span>
                 <span className={styles.regionNumber}>{region.number}</span>
                 <span className={styles.arrow} aria-hidden="true">
-                  ↘
+                  {"\u2198\uFE0E"}
                 </span>
               </div>
             </Reveal>

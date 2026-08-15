@@ -11,7 +11,11 @@ type ModelCardProps = {
 
 export default function ModelCard({ model }: ModelCardProps) {
   return (
-    <Link href={`/models/${model.slug}`} className={styles.card}>
+    <Link
+      href={`/models/${model.slug}`}
+      className={styles.card}
+      prefetch={false}
+    >
       <div className={styles.imageWrapper}>
         <Image
           src={model.coverImage}
@@ -24,7 +28,7 @@ export default function ModelCard({ model }: ModelCardProps) {
 
         <div className={styles.overlay} />
 
-        <span className={styles.view}>View profile ↗</span>
+        <span className={styles.view}>View profile {"\u2197\uFE0E"}</span>
       </div>
 
       <div className={styles.meta}>

@@ -209,7 +209,7 @@ export default async function ModelsPage({ searchParams }: ModelsPageProps) {
             <p className={styles.emptyTitle}>No models found</p>
 
             <Link href="/models" className={styles.clearFilters}>
-              Clear filters ↘
+              Clear filters {"\u2198\uFE0E"}
             </Link>
           </div>
         )}

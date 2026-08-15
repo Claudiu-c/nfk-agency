@@ -30,7 +30,7 @@ export default function AboutNFK() {
 
               <Link href="/about" className={styles.link}>
                 Discover the agency
-                <span aria-hidden="true">↘</span>
+                <span aria-hidden="true">{"\u2198\uFE0E"}</span>
               </Link>
             </div>
           </Reveal>

@@ -56,7 +56,7 @@ export default function JoinAgency() {
 
                 <Link href="/join" className={styles.cta}>
                   Apply to NFK
-                  <span aria-hidden="true">↗</span>
+                  <span aria-hidden="true">{"\u2197\uFE0E"}</span>
                 </Link>
               </div>
             </div>

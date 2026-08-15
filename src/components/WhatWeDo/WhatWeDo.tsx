@@ -44,7 +44,7 @@ export default function WhatWeDo() {
                 <h2 className={styles.title}>{service.title}</h2>
                 <p className={styles.description}>{service.description}</p>
                 <span className={styles.arrow} aria-hidden="true">
-                  ↘
+                  {"\u2198\uFE0E"}
                 </span>
               </div>
             </Reveal>

@@ -17,7 +17,7 @@ export default function BackToTop({ className }: BackToTopProps) {
   return (
     <a href="#top" className={className} onClick={handleClick}>
       Back to top
-      <span aria-hidden="true">↑</span>
+      <span aria-hidden="true">{"\u2191\uFE0E"}</span>
     </a>
   );
 }

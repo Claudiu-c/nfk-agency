@@ -354,7 +354,7 @@ export default function JoinForm() {
         <button type="submit" className={styles.submit} disabled={pending}>
           {pending ? "Sending..." : "Submit application"}
 
-          {!pending && <span aria-hidden="true">↗</span>}
+          {!pending && <span aria-hidden="true">{"\u2197\uFE0E"}</span>}
         </button>
       </div>
     </form>

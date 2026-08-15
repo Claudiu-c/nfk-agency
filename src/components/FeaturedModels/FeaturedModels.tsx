@@ -23,7 +23,7 @@ export default function FeaturedModels() {
           <Reveal delay={120}>
             <Link href="/models" className={styles.viewAll}>
               View all models
-              <span aria-hidden="true">↘</span>
+              <span aria-hidden="true">{"\u2198\uFE0E"}</span>
             </Link>
           </Reveal>
         </div>

@@ -31,7 +31,7 @@ export default function AboutCTA() {
 
               <Link href="/join" className={styles.link}>
                 Apply to NFK
-                <span aria-hidden="true">↗</span>
+                <span aria-hidden="true">{"\u2197\uFE0E"}</span>
               </Link>
             </div>
           </Reveal>

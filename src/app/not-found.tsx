@@ -24,7 +24,7 @@ export default function NotFound() {
 
             <Link href="/" className={styles.link}>
               Back to home
-              <span aria-hidden="true">↘</span>
+              <span aria-hidden="true">{"\u2198\uFE0E"}</span>
             </Link>
           </div>
         </div>
