@@ -577,6 +577,18 @@
   font-size: 0.65rem;
 }
 
+.turnstileRow {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 32px;
+}
+
+.turnstileWidget {
+  width: 100%;
+  max-width: 320px;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .uploadField input[type="file"]::file-selector-button:hover {
     background: #111111;
@@ -712,5 +724,13 @@
 
   .uploadField input[type="file"] {
     font-size: 0.7rem;
+  }
+
+  .turnstileRow {
+    justify-content: flex-start;
+  }
+
+  .turnstileWidget {
+    max-width: 100%;
   }
 }

@@ -13,6 +13,15 @@ const MAX_FILE_SIZE = 5 * 1024 * 1024;
 
 const allowedGenders = ["female", "male", "other", "prefer-not-to-say"];
 
+const TURNSTILE_ACTION = "join_application";
+
+type TurnstileVerification = {
+  success: boolean;
+  hostname?: string;
+  action?: string;
+  "error-codes"?: string[];
+};
+
 function getString(formData: FormData, name: string) {
   const value = formData.get(name);
 
@@ -68,6 +77,60 @@ function isPdf(buffer: Buffer) {
   );
 }
 
+async function verifyTurnstile(token: string) {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+
+  if (!secret) {
+    throw new Error("Missing TURNSTILE_SECRET_KEY.");
+  }
+
+  if (!token || token.length > 2048) {
+    return false;
+  }
+
+  const response = await fetch(
+    "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+    {
+      method: "POST",
+
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+
+      body: new URLSearchParams({
+        secret,
+        response: token,
+      }),
+
+      signal: AbortSignal.timeout(8000),
+
+      cache: "no-store",
+    },
+  );
+
+  if (!response.ok) {
+    throw new Error(`Turnstile Siteverify returned ${response.status}.`);
+  }
+
+  const result = (await response.json()) as TurnstileVerification;
+
+  if (!result.success) {
+    console.warn("Turnstile rejected request:", result["error-codes"]);
+
+    return false;
+  }
+  if (
+    process.env.NODE_ENV === "production" &&
+    result.action !== TURNSTILE_ACTION
+  ) {
+    console.warn("Turnstile action mismatch:", result.action);
+
+    return false;
+  }
+
+  return true;
+}
+
 export async function submitApplication(
   _previousState: JoinFormState,
   formData: FormData,
@@ -101,6 +164,8 @@ export async function submitApplication(
   const portfolio = formData.get("portfolio");
 
   const resume = formData.get("resume");
+
+  const turnstileToken = getString(formData, "cf-turnstile-response");
 
   if (!firstName || !lastName || !email || !phone || !country || !experience) {
     return {
@@ -169,6 +234,31 @@ export async function submitApplication(
     return {
       success: false,
       message: "Portfolio and resume must be PDF files.",
+    };
+  }
+
+  if (!turnstileToken) {
+    return {
+      success: false,
+      message: "Please complete the security check and try again.",
+    };
+  }
+
+  try {
+    const isHuman = await verifyTurnstile(turnstileToken);
+
+    if (!isHuman) {
+      return {
+        success: false,
+        message: "We couldn't verify the security check. Please try again.",
+      };
+    }
+  } catch (error) {
+    console.error("Turnstile verification error:", error);
+
+    return {
+      success: false,
+      message: "We couldn't verify your request. Please try again.",
     };
   }
 
