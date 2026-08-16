@@ -44,6 +44,7 @@ export default function ModelGallery({ modelName, images }: ModelGalleryProps) {
                 sizes={isWide ? "100vw" : "(max-width: 768px) 100vw, 50vw"}
                 className={styles.image}
                 loading="eager"
+                quality={90}
               />
             </div>
           );

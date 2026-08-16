@@ -86,7 +86,7 @@ function HeroSlideImage({ image, first }: HeroSlideProps) {
   const common = {
     alt: image.alt,
     sizes: "100vw",
-    quality: 75,
+    quality: 90,
   };
 
   const {

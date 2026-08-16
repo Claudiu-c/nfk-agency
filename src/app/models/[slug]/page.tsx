@@ -134,6 +134,7 @@ export default async function ModelPage({ params }: ModelPageProps) {
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className={styles.image}
                 loading="eager"
+                quality={90}
               />
             </div>
           </div>

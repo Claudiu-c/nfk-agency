@@ -28,6 +28,7 @@ export default function ModelCard({
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className={styles.image}
+          quality={90}
         />
 
         <div className={styles.overlay} />
