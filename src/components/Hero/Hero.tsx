@@ -135,7 +135,30 @@ function HeroSlideImage({ image, first }: HeroSlideProps) {
 export default function Hero() {
   const [activeImage, setActiveImage] = useState(0);
 
+  const [sliderReady, setSliderReady] = useState(false);
+
   useEffect(() => {
+    const enableSlider = () => {
+      setSliderReady(true);
+    };
+
+    if (document.readyState === "complete") {
+      enableSlider();
+      return;
+    }
+
+    window.addEventListener("load", enableSlider, { once: true });
+
+    return () => {
+      window.removeEventListener("load", enableSlider);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!sliderReady) {
+      return;
+    }
+
     const prefersReducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
@@ -151,21 +174,27 @@ export default function Hero() {
     return () => {
       window.clearInterval(interval);
     };
-  }, []);
+  }, [sliderReady]);
 
   return (
     <section className={styles.hero} data-header-theme="dark">
       <div className={`${styles.media} ${styles.heroImage}`}>
-        {heroImages.map((image, index) => (
-          <div
-            key={image.desktop.src}
-            className={`${styles.slide} ${
-              index === activeImage ? styles.slideActive : ""
-            }`}
-          >
-            <HeroSlideImage image={image} first={index === 0} />
-          </div>
-        ))}
+        {heroImages.map((image, index) => {
+          if (!sliderReady && index !== 0) {
+            return null;
+          }
+
+          return (
+            <div
+              key={image.desktop.src}
+              className={`${styles.slide} ${
+                index === activeImage ? styles.slideActive : ""
+              }`}
+            >
+              <HeroSlideImage image={image} first={index === 0} />
+            </div>
+          );
+        })}
 
         <div className={styles.counter}>
           <span>{(activeImage + 1).toString().padStart(2, "0")}</span>
