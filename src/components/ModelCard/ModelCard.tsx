@@ -7,9 +7,14 @@ import styles from "./ModelCard.module.scss";
 
 type ModelCardProps = {
   model: Model;
+  headingLevel?: "h2" | "h3";
 };
 
-export default function ModelCard({ model }: ModelCardProps) {
+export default function ModelCard({
+  model,
+  headingLevel = "h3",
+}: ModelCardProps) {
+  const Heading = headingLevel;
   return (
     <Link
       href={`/models/${model.slug}`}
@@ -31,7 +36,7 @@ export default function ModelCard({ model }: ModelCardProps) {
       </div>
 
       <div className={styles.meta}>
-        <h3 className={styles.name}>{model.name}</h3>
+        <Heading className={styles.name}>{model.name}</Heading>
         {model.measurements?.height && (
           <span className={styles.height}>{model.measurements.height}</span>
         )}

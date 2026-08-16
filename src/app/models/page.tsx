@@ -200,7 +200,7 @@ export default async function ModelsPage({ searchParams }: ModelsPageProps) {
         {filteredModels.length > 0 ? (
           <div className={styles.grid}>
             {filteredModels.map((model) => (
-              <ModelCard key={model.id} model={model} />
+              <ModelCard key={model.id} model={model} headingLevel="h2" />
             ))}
           </div>
         ) : (
